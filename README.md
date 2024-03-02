@@ -1,4 +1,4 @@
-# GABY PHOTOGRAPHY
+# Gaby Photography
 
 ## Getting Started with Create React App
 
