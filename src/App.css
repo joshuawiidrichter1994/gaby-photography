@@ -7,8 +7,8 @@
     }
 
         header {
+            margin: 0 35px 0 35px;
             height: 60px;
-            /* text-align: center; */
         }
             .header-wrap {
                 display: flex;
@@ -18,19 +18,18 @@
                 height: 80px;
                 width: auto;
                 left: 0;
-                padding-right: 290px;
+                padding-right: 250px;
             }
             .header-text {
                 font-family: 'Cormorant Garamond';
                 letter-spacing: 10px;
                 font-size: 25px;
-                /* padding-top: 15px; */
                 margin: 25px 0 0 0;
             }
 
         .body {
             display: flex;
-            margin: 1 5px;
+            margin: 15px 35px 0 35px;
         }
 
             .body-left {
@@ -57,10 +56,8 @@
                         letter-spacing: 7px;
                     }
                     .quote {
-                        font-family: 'Cormorant Garamond';
-                        letter-spacing: 3px;
-                        font-size: 25px;
-                        /* font-style: italic; */
+                        letter-spacing: 0.4rem;
+                        font-size: 18px;
                     }
                     .view-series-btn {
                         letter-spacing: 5px;
@@ -99,7 +96,6 @@
 
         header {
             height: 100px;
-            /* text-align: center; */
         }
             .header-wrap {
                 margin-bottom: 10px;
