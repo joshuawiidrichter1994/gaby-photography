@@ -1,0 +1,290 @@
+/* desktop */
+
+@media only screen and (min-width: 600px) {
+    .container {
+        color: black;
+        font-family: 'Poppins';
+    }
+
+        header {
+            height: 60px;
+            /* text-align: center; */
+        }
+            .header-wrap {
+                display: flex;
+            }
+            .header-logo {
+                height: 80px;
+                width: auto;
+                left: 0;
+                padding-right: 290px;
+            }
+            .header-text {
+                font-family: 'Cormorant Garamond';
+                letter-spacing: 10px;
+                font-size: 25px;
+                padding-top: 15px;
+                margin: 0;
+            }
+
+        .body {
+            display: flex;
+        }
+
+            .body-left {
+                width: 50%;
+                padding: 20px;
+                margin-bottom: 10px;
+            }
+                .img-left {
+                    width: 100%;
+                }
+                    .slogan {
+                        letter-spacing: 10px;
+                    }
+
+            .body-right {
+                width: 50%;
+                padding: 20px;
+                margin-bottom: 10px;
+            }
+                .img-right {
+                    width: 100%;
+                }
+                    .img-right-footer {
+                        letter-spacing: 7px;
+                    }
+                    .quote {
+                        font-family: 'Cormorant Garamond';
+                        letter-spacing: 3px;
+                        font-size: 25px;
+                        /* font-style: italic; */
+                    }
+                    .view-series-btn {
+                        letter-spacing: 5px;
+                        height: 75px;
+                        width: 175px;
+                        background-color: lightgrey;
+                        color: white;
+
+                        /* remove button styling */
+                        border: none;
+                        padding: 0;
+                        font: inherit;
+                        cursor: pointer;
+                        outline: inherit;
+                    }
+
+        footer {
+            text-align: center;
+            height: 100px;
+            background-color: lightgrey;
+        }
+            .social-media-img {
+                padding: 35px 45px 0 45px;
+                height: 30px;
+                width: auto;
+            }
+}
+
+/* tablet */
+
+@media only screen and (max-width: 600px) {
+    .container {
+        color: black;
+        font-family: 'Poppins';
+    }
+
+        header {
+            height: 100px;
+            /* text-align: center; */
+        }
+            .header-wrap {
+                margin-bottom: 10px;
+            }
+            .header-logo {
+                height: 50px;
+                width: auto;
+                left: 0;
+                padding-right: 5px;
+            }
+            .header-text {
+                text-align: center;
+                font-family: 'Cormorant Garamond';
+                letter-spacing: 3px;
+                font-size: 25px;
+                margin: 0;
+            }
+
+        .body {
+            display: flex;
+        }
+
+            .body-left {
+                width: 50%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+                .img-left {
+                    width: 100%;
+                }
+                    .slogan {
+                        font-size: 15px;
+                        letter-spacing: 2px;
+                    }
+
+            .body-right {
+                width: 50%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+                .img-right {
+                    width: 100%;
+                }
+                    .img-right-footer {
+                        letter-spacing: 7px;
+                    }
+                    .quote {
+                        font-family: 'Cormorant Garamond';
+                        letter-spacing: 1px;
+                        font-size: 15px;
+                        /* font-style: italic; */
+                    }
+                    .quote-author {
+                        font-size: 10px;
+                        letter-spacing: 1px;
+                    }
+                    .view-series-btn-text {
+                        font-size: 10px;
+                    }
+                    .view-series-btn {
+                        letter-spacing: 2px;
+                        height: 35px;
+                        width: 110px;
+                        font-size: 5px;
+                        background-color: lightgrey;
+                        color: white;
+
+                        /* remove button styling */
+                        border: none;
+                        padding: 0;
+                        font: inherit;
+                        cursor: pointer;
+                        outline: inherit;
+                    }
+
+        footer {
+            text-align: center;
+            height: 100px;
+            background-color: lightgrey;
+        }
+            .social-media-img {
+                padding: 35px 45px 0 45px;
+                height: 30px;
+                width: auto;
+            }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 500px) {
+    .container {
+        color: black;
+        font-family: 'Poppins';
+    }
+
+        header {
+            height: 100px;
+            /* text-align: center; */
+        }
+            .header-wrap {
+                margin-bottom: 10px;
+            }
+            .header-logo {
+                height: 50px;
+                width: auto;
+                left: 0;
+                padding-right: 5px;
+            }
+            .header-text {
+                text-align: center;
+                font-family: 'Cormorant Garamond';
+                letter-spacing: 3px;
+                font-size: 25px;
+                margin: 0;
+            }
+
+        .body {
+            display: flex;
+        }
+
+            .body-left {
+                width: 50%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+                .img-left {
+                    width: 100%;
+                }
+                    .slogan {
+                        font-size: 15px;
+                        letter-spacing: 2px;
+                    }
+
+            .body-right {
+                width: 50%;
+                padding: 5px;
+                margin-bottom: 10px;
+            }
+                .img-right {
+                    width: 100%;
+                }
+                    .img-right-footer {
+                        letter-spacing: 7px;
+                    }
+                    .quote {
+                        font-family: 'Cormorant Garamond';
+                        letter-spacing: 1px;
+                        font-size: 15px;
+                        /* font-style: italic; */
+                    }
+                    .quote-author {
+                        font-size: 10px;
+                        letter-spacing: 1px;
+                    }
+                    .view-series-btn-text {
+                        font-size: 10px;
+                    }
+                    .view-series-btn {
+                        letter-spacing: 2px;
+                        height: 35px;
+                        width: 110px;
+                        font-size: 5px;
+                        background-color: lightgrey;
+                        color: white;
+
+                        /* remove button styling */
+                        border: none;
+                        padding: 0;
+                        font: inherit;
+                        cursor: pointer;
+                        outline: inherit;
+                    }
+
+        footer {
+            text-align: center;
+            height: 100px;
+            background-color: lightgrey;
+        }
+            .social-media-img {
+                padding: 35px 45px 0 45px;
+                height: 30px;
+                width: auto;
+            }
+}
+
+/* general tags */
+
+a {
+    color: black;
+}
