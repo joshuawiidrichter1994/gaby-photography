@@ -20,11 +20,16 @@ function App() {
           <div className="nav-item">
             <span>ABOUT</span>
           </div>
-          <div className="nav-item">
+          <div className="nav-button">
             <span>Get a Quote</span>
           </div>
         </div>
       </header>
+      <main>
+        <div>
+          <h1>Gaby Isabelle Photography</h1>
+        </div>
+      </main>
     </div>
   );
 }
