@@ -46,9 +46,7 @@ header {
 
 main {
     text-align: center;
-    font-variant: normal;
     margin: 150px 0px 0px 0px;
-    height: 5000px;
     width: 100%;
 }
 
@@ -60,18 +58,55 @@ h1 {
 }
 
 .intro {
-    height: 25%;
+    
     
 }
 
 .intro-image-container {
-    width: 100%;
-    height: 500px;
+
 }
 
 .intro-img {
     width: 100%;
     height: auto;
-    
 }
+
+.section {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 25px 0 25px
+}
+
+.section-text-left {
+    font-size: 30px;
+}
+
+.section-text-right {
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.section-images-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 25px 0px 25px;
+}
+
+.section-image-container {
+    width: 400px;
+    height: 750px;
+}
+
+.section-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 

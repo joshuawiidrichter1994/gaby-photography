@@ -32,6 +32,25 @@ function Landing() {
             <img className="intro-img" src={require('../img/1.JPG')} />
           </div>
         </div>
+        <div className="section">
+          <div className="section-header">
+            <span className="section-text-left">Portfolio</span>
+            <span className="section-text-right">View Work</span>
+          </div>
+          <div className="section-images-container">
+            <div className="section-image-container">
+              <img className="section-image" src={require('../img/2.JPG')} />
+            </div>
+            <div className="section-image-container">
+              <img className="section-image" src={require('../img/3.jpg')} />
+            </div>
+            <div className="section-image-container">
+              <img className="section-image" src={require('../img/4.jpg')} />
+            </div>
+          </div>
+        </div>
+        <div className="blog"></div>
+        <footer></footer>
       </main>
     </div>
   );
