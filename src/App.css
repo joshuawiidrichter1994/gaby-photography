@@ -1,0 +1,28 @@
+header {
+    display: flex;
+    background-color: white;
+    position: sticky;
+    height: 150px;
+    width: 100%;
+    border-bottom: gray solid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 25px 0 25px;
+}
+
+.icon {
+    height: 100px;
+}
+
+.nav-container {
+    display: flex;
+    padding: 0px 150px 0px 0px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    /* margin: 0px 15px 0 15px; */
+    height: 50px;
+    width: 100px;
+}
