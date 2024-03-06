@@ -104,11 +104,9 @@ function Landing() {
         {/* FOOTER */}
         <div className="footer-top">
           <img className="footer-top-image" src={require('../img/10.JPG')} />
-          <div className="footer-top-text-container">
-            <span className="footer-top-text">
-              Fine art photographer seeking to capture identities, expressions,
-              & auras of people.
-            </span>
+          <div className="footer-top-text">
+            Fine art photographer seeking to capture identities, expressions, &
+            auras of people.
           </div>
         </div>
         <footer>
@@ -133,16 +131,24 @@ function Landing() {
           </div>
           <div className="footer-nav">
             <div className="footer-nav-item">
-              <span className="nav-item-text">WORKS</span>
+              <span className="nav-item-text">
+                <a href="https://www.google.com/">WORKS</a>
+              </span>
             </div>
             <div className="footer-nav-item">
-              <span className="nav-item-text">SERVICES</span>
+              <span className="nav-item-text">
+                <a href="https://www.google.com/">SERVICES</a>
+              </span>
             </div>
             <div className="footer-nav-item">
-              <span className="nav-item-text">BLOG</span>
+              <span className="nav-item-text">
+                <a href="https://www.google.com/">BLOG</a>
+              </span>
             </div>
             <div className="footer-nav-item">
-              <span className="nav-item-text">ABOUT</span>
+              <span className="nav-item-text">
+                <a href="https://www.google.com/">ABOUT</a>
+              </span>
             </div>
           </div>
         </footer>
