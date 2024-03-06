@@ -93,7 +93,41 @@ function Landing() {
             </div>
           </div>
         </div>
-        <footer></footer>
+        <footer>
+          <div className="subscribe-container">
+            <div className="subscribe-header">
+              <span>Subscribe</span>
+            </div>
+            <div className="subscribe-text">
+              <span>
+                Sign up with your email address to receive news and exclusive
+                prints
+              </span>
+            </div>
+            <div className="subscribe-form">
+              <input
+                className="subscribe-input"
+                type="text"
+                placeholder="Email address"
+              />
+            </div>
+            <button className="subscribe-button">Sign Up</button>
+          </div>
+          <div className="footer-nav">
+            <div className="footer-nav-item">
+              <span className="nav-item-text">WORKS</span>
+            </div>
+            <div className="footer-nav-item">
+              <span className="nav-item-text">SERVICES</span>
+            </div>
+            <div className="footer-nav-item">
+              <span className="nav-item-text">BLOG</span>
+            </div>
+            <div className="footer-nav-item">
+              <span className="nav-item-text">ABOUT</span>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
   );
