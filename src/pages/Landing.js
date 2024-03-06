@@ -8,18 +8,26 @@ function Landing() {
         </div>
         <div className="nav-container">
           <div className="nav-item">
-            <span>BLOG</span>
+            <span>
+              <a href="https://www.google.com/">BLOG</a>
+            </span>
           </div>
           <div className="nav-item">
-            <span>WORKS</span>
+            <span>
+              <a href="https://www.google.com/">WORKS</a>
+            </span>
           </div>
           <div className="nav-item">
-            <span>SERVICES</span>
+            <span>
+              <a href="https://www.google.com/">SERVICES</a>
+            </span>
           </div>
           <div className="nav-item">
-            <span>ABOUT</span>
+            <span>
+              <a href="https://www.google.com/">ABOUT</a>
+            </span>
           </div>
-          <a href="https://www.facebook.com/" target="_blank">
+          <a href="https://www.google.com/" target="_blank">
             <div className="nav-button">
               <span>Get a Quote</span>
             </div>
@@ -91,6 +99,16 @@ function Landing() {
               <img className="section-image" src={require('../img/9.JPG')} />
               <p className="section-image-text">Environmental Portraiture</p>
             </div>
+          </div>
+        </div>
+        {/* FOOTER */}
+        <div className="footer-top">
+          <img className="footer-top-image" src={require('../img/10.JPG')} />
+          <div className="footer-top-text-container">
+            <span className="footer-top-text">
+              Fine art photographer seeking to capture identities, expressions,
+              & auras of people.
+            </span>
           </div>
         </div>
         <footer>
