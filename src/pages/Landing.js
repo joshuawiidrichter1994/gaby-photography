@@ -1,6 +1,7 @@
 function Landing() {
   return (
     <div>
+      {/* HEADER */}
       <header>
         <div className="icon-container">
           <img className="icon" src={require('../img/logo.jpg')} />
@@ -18,11 +19,14 @@ function Landing() {
           <div className="nav-item">
             <span>ABOUT</span>
           </div>
-          <div className="nav-button">
-            <span>Get a Quote</span>
-          </div>
+          <a href="https://www.facebook.com/" target="_blank">
+            <div className="nav-button">
+              <span>Get a Quote</span>
+            </div>
+          </a>
         </div>
       </header>
+      {/* MAIN */}
       <main>
         <div className="intro">
           <div>
@@ -32,6 +36,7 @@ function Landing() {
             <img className="intro-img" src={require('../img/1.JPG')} />
           </div>
         </div>
+        {/* PORTFOLIO */}
         <div className="portfolio-section">
           <div className="section-header">
             <span className="section-text-left">Portfolio</span>
@@ -52,6 +57,22 @@ function Landing() {
             </div>
           </div>
         </div>
+        {/* SERVICES */}
+        <div className="services-section">
+          <div className="services-header">
+            <span className="section-text-left">Services</span>
+            <span className="section-text-right">View packages</span>
+          </div>
+          <div className="services-images">
+            <div className="service-image-container">
+              <img className="service-image" src={require('../img/5.JPG')} />
+            </div>
+            <div className="service-image-container">
+              <img className="service-image" src={require('../img/6.JPG')} />
+            </div>
+          </div>
+        </div>
+        {/* BLOGS */}
         <div className="blog-section">
           <div className="section-header">
             <span className="section-text-left">Blog</span>
@@ -72,7 +93,6 @@ function Landing() {
             </div>
           </div>
         </div>
-        <div className="blog"></div>
         <footer></footer>
       </main>
     </div>

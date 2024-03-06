@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+/* GENERAL ELEMENTS */
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
 
 header {
     display: flex;
@@ -33,10 +44,6 @@ header {
     width: auto;
 }
 
-p {
-    color: black;
-}
-
 .nav-button {
     color: white;
     display: flex;
@@ -47,6 +54,8 @@ p {
     width: 150px;
     background-color: rgb(109, 101, 89);
 }
+
+/* MAIN */
 
 main {
     text-align: center;
@@ -61,19 +70,12 @@ h1 {
     font-size: 80px;
 }
 
-.intro {
-    
-    
-}
-
-.intro-image-container {
-
-}
-
 .intro-img {
     width: 100%;
     height: auto;
 }
+
+/* SECTIONS */
 
 .portfolio-section {
     font-family: "Italiana", sans-serif;
@@ -91,20 +93,36 @@ h1 {
     padding: 50px 25px 75px 25px;    
 }
 
-.section-header {
+.services-section {
+    padding: 75px 0px 50px 0px;
+}
+
+.services-header {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     display: flex;
     justify-content: space-between;
-    padding: 0px 25px 25px 25px
+    padding: 0px 50px 25px 50px;
+}
+
+.section-header {
+    font-family: "Italiana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 25px 25px;
 }
 
 .section-text-left {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 0.1rem;
 }
 
 .section-text-right {
     font-family: "Lato";
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px;
     text-decoration: underline;
     letter-spacing: 0.1rem;
@@ -118,7 +136,7 @@ h1 {
 
 .section-image-container {
     width: 400px;
-    height: 750px;
+    height: 600px;
     text-align: left;
 }
 
@@ -133,5 +151,24 @@ h1 {
     margin: 5px 0px 0px 0px;
     letter-spacing: 0.2rem;
 }
+
+.services-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-image-container {
+    width:50%;
+    height: auto;
+    text-align: left;
+}
+
+.service-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* FOOTER */
 
 
