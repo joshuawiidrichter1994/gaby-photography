@@ -39,6 +39,7 @@ function Landing() {
         <div className="icon-container">
           <img className="icon" src={require('../img/logo.jpg')} />
         </div>
+        <img className="menu-icon" src={require('../img/mobile-menu.png')} />
       </header>
       {/* MAIN */}
       <main>
