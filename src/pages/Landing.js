@@ -2,7 +2,7 @@ function Landing() {
   return (
     <div>
       {/* HEADER */}
-      <header>
+      <header className="header-desktop">
         <div className="icon-container">
           <img className="icon" src={require('../img/logo.jpg')} />
         </div>
@@ -32,6 +32,12 @@ function Landing() {
               <span>Get a Quote</span>
             </div>
           </a>
+        </div>
+      </header>
+      <header className="header-mobile">
+        {' '}
+        <div className="icon-container">
+          <img className="icon" src={require('../img/logo.jpg')} />
         </div>
       </header>
       {/* MAIN */}

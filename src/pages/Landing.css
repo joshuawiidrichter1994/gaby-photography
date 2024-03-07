@@ -13,23 +13,57 @@ a {
     color: inherit;
 }
 
-/* HEADER */
+/* --HEADER-- */
 
-header {
-    display: flex;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    height: 150px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 25px 0 25px;
+/* Mobile */
+
+@media only screen and (max-width: 768px) {
+    .header-desktop {
+        display: none;
+    }
+
+    .icon {
+        height: 50px;
+    }
+
+    header {
+        display: flex;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        height: 100px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px 0 15px;
+    }
 }
 
-.icon {
-    height: 100px;
+/* Desktop */
+
+@media only screen and (min-width: 768px) {
+    .header-mobile {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        height: 150px;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 25px 0 25px;
+    }
+
+    .icon {
+        height: 100px;
+    }
 }
+
+/* General */
 
 .nav-container {
     display: flex;
@@ -56,7 +90,7 @@ header {
     background-color: rgb(109, 101, 89);
 }
 
-/* MAIN */
+/* --MAIN-- */
 
 main {
     text-align: center;
@@ -76,7 +110,7 @@ h1 {
     height: auto;
 }
 
-/* SECTIONS */
+/* --SECTIONS-- */
 
 .portfolio-section {
     font-family: "Italiana", sans-serif;
@@ -170,7 +204,7 @@ h1 {
     object-fit: cover;
 }
 
-/* FOOTER */
+/* --FOOTER- */
 
 .footer-top {
     position: relative;
