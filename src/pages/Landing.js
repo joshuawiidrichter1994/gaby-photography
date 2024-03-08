@@ -1,7 +1,16 @@
+import React, { useState } from 'react';
+
 function Landing() {
+  const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
+
+  const toggleMobileNav = () => {
+    setIsMobileNavVisible(!isMobileNavVisible);
+  };
+
   return (
     <div>
       {/* HEADER */}
+      {/* desktop */}
       <header className="header-desktop">
         <div className="icon-container">
           <img className="icon" src={require('../img/logo.jpg')} />
@@ -34,13 +43,22 @@ function Landing() {
           </a>
         </div>
       </header>
+      {/* mobile */}
       <header className="header-mobile">
-        {' '}
         <div className="icon-container">
           <img className="icon" src={require('../img/logo.jpg')} />
         </div>
-        <img className="menu-icon" src={require('../img/mobile-menu.png')} />
+
+        <img
+          className="menu-icon"
+          onClick={toggleMobileNav}
+          src={require('../img/mobile-menu.png')}
+        />
+        <div className={isMobileNavVisible ? 'mobile-nav show' : 'mobile-nav'}>
+          <h1>HELLO</h1>
+        </div>
       </header>
+
       {/* MAIN */}
       <main>
         <div className="intro">
