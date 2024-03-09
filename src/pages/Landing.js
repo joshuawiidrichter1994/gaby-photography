@@ -100,11 +100,14 @@ function Landing() {
               <span>ABOUT</span>
             </li>
           </ul>
-          <a href="https://www.google.com/" target="_blank">
+
+          <div className="mobile-nav-button-container">
             <div className="mobile-nav-button">
-              <span>Get a Quote</span>
+              <a href="https://www.google.com/" target="_blank">
+                <span>Get a Quote</span>
+              </a>
             </div>
-          </a>
+          </div>
         </div>
       </div>
 
@@ -119,7 +122,7 @@ function Landing() {
           </div>
         </div>
         {/* PORTFOLIO */}
-        <div className="portfolio-section">
+        {/* <div className="portfolio-section">
           <div className="section-header">
             <span className="section-text-left">Portfolio</span>
             <span className="section-text-right">View Work</span>
@@ -138,9 +141,9 @@ function Landing() {
               <p className="section-image-text">Portraits</p>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* SERVICES */}
-        <div className="services-section">
+        {/* <div className="services-section">
           <div className="services-header">
             <span className="section-text-left">Services</span>
             <span className="section-text-right">View packages</span>
@@ -153,9 +156,9 @@ function Landing() {
               <img className="service-image" src={require('../img/6.JPG')} />
             </div>
           </div>
-        </div>
+        </div> */}
         {/* BLOGS */}
-        <div className="blog-section">
+        {/* <div className="blog-section">
           <div className="section-header">
             <span className="section-text-left">Blog</span>
             <span className="section-text-right">View Work</span>
@@ -174,59 +177,59 @@ function Landing() {
               <p className="section-image-text">Environmental Portraiture</p>
             </div>
           </div>
-        </div>
-        {/* FOOTER */}
-        <div className="footer-top">
-          <img className="footer-top-image" src={require('../img/10.JPG')} />
-          <div className="footer-top-text">
-            Fine art photographer seeking to capture identities, expressions, &
-            auras of people.
-          </div>
-        </div>
-        <footer>
-          <div className="subscribe-container">
-            <div className="subscribe-header">
-              <span>Subscribe</span>
-            </div>
-            <div className="subscribe-text">
-              <span>
-                Sign up with your email address to receive news and exclusive
-                prints
-              </span>
-            </div>
-            <div className="subscribe-form">
-              <input
-                className="subscribe-input"
-                type="text"
-                placeholder="Email address"
-              />
-            </div>
-            <button className="subscribe-button">Sign Up</button>
-          </div>
-          <div className="footer-nav">
-            <div className="footer-nav-item">
-              <span className="nav-item-text">
-                <a href="https://www.google.com/">WORKS</a>
-              </span>
-            </div>
-            <div className="footer-nav-item">
-              <span className="nav-item-text">
-                <a href="https://www.google.com/">SERVICES</a>
-              </span>
-            </div>
-            <div className="footer-nav-item">
-              <span className="nav-item-text">
-                <a href="https://www.google.com/">BLOG</a>
-              </span>
-            </div>
-            <div className="footer-nav-item">
-              <span className="nav-item-text">
-                <a href="https://www.google.com/">ABOUT</a>
-              </span>
-            </div>
-          </div>
-        </footer>
+        </div> */}
       </main>
+      {/* FOOTER */}
+      {/* <div className="footer-top">
+        <img className="footer-top-image" src={require('../img/10.JPG')} />
+        <div className="footer-top-text">
+          Fine art photographer seeking to capture identities, expressions, &
+          auras of people.
+        </div>
+      </div>
+      <footer>
+        <div className="subscribe-container">
+          <div className="subscribe-header">
+            <span>Subscribe</span>
+          </div>
+          <div className="subscribe-text">
+            <span>
+              Sign up with your email address to receive news and exclusive
+              prints
+            </span>
+          </div>
+          <div className="subscribe-form">
+            <input
+              className="subscribe-input"
+              type="text"
+              placeholder="Email address"
+            />
+          </div>
+          <button className="subscribe-button">Sign Up</button>
+        </div>
+        <div className="footer-nav">
+          <div className="footer-nav-item">
+            <span className="nav-item-text">
+              <a href="https://www.google.com/">WORKS</a>
+            </span>
+          </div>
+          <div className="footer-nav-item">
+            <span className="nav-item-text">
+              <a href="https://www.google.com/">SERVICES</a>
+            </span>
+          </div>
+          <div className="footer-nav-item">
+            <span className="nav-item-text">
+              <a href="https://www.google.com/">BLOG</a>
+            </span>
+          </div>
+          <div className="footer-nav-item">
+            <span className="nav-item-text">
+              <a href="https://www.google.com/">ABOUT</a>
+            </span>
+          </div>
+        </div>
+      </footer> */}
     </div>
   );
 }

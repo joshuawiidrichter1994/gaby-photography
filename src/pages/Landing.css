@@ -114,6 +114,7 @@ ul {
     }
 
     .mobile-nav {
+        text-align: center;
         position: fixed;
         color: black;
         background-color: white;
@@ -127,11 +128,17 @@ ul {
         padding: 0px 0px 15px 0px;
     }
 
+.mobile-nav-button-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
     .mobile-nav-button {
         color: white;
-        margin: 0px 0px 0px 179px;
-        padding: 10px 0px 0px 0px;
-        height: 50px;
+        margin: 0px;
+        padding: 15px 0px 0px 0px;
+        height: 60px;
         width: 300px;
         background-color: rgb(109, 101, 89);
     }
