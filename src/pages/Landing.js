@@ -122,7 +122,7 @@ function Landing() {
           </div>
         </div>
         {/* PORTFOLIO */}
-        {/* <div className="portfolio-section">
+        <div className="portfolio-section">
           <div className="section-header">
             <span className="section-text-left">Portfolio</span>
             <span className="section-text-right">View Work</span>
@@ -141,9 +141,9 @@ function Landing() {
               <p className="section-image-text">Portraits</p>
             </div>
           </div>
-        </div> */}
+        </div>
         {/* SERVICES */}
-        {/* <div className="services-section">
+        <div className="services-section">
           <div className="services-header">
             <span className="section-text-left">Services</span>
             <span className="section-text-right">View packages</span>
@@ -156,9 +156,9 @@ function Landing() {
               <img className="service-image" src={require('../img/6.JPG')} />
             </div>
           </div>
-        </div> */}
+        </div>
         {/* BLOGS */}
-        {/* <div className="blog-section">
+        <div className="blog-section">
           <div className="section-header">
             <span className="section-text-left">Blog</span>
             <span className="section-text-right">View Work</span>
@@ -177,10 +177,10 @@ function Landing() {
               <p className="section-image-text">Environmental Portraiture</p>
             </div>
           </div>
-        </div> */}
+        </div>
       </main>
       {/* FOOTER */}
-      {/* <div className="footer-top">
+      <div className="footer-top">
         <img className="footer-top-image" src={require('../img/10.JPG')} />
         <div className="footer-top-text">
           Fine art photographer seeking to capture identities, expressions, &
@@ -229,7 +229,7 @@ function Landing() {
             </span>
           </div>
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }
