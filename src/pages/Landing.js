@@ -166,15 +166,15 @@ function Landing() {
           <div className="section-images-container">
             <div className="section-image-container">
               <img className="section-image" src={require('../img/7.jpg')} />
-              <p className="section-image-text">Photographing Pairs</p>
+              <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
               <img className="section-image" src={require('../img/8.jpg')} />
-              <p className="section-image-text">Learning Light</p>
+              <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
               <img className="section-image" src={require('../img/9.JPG')} />
-              <p className="section-image-text">Environmental Portraiture</p>
+              <p className="section-image-text">Travel</p>
             </div>
           </div>
         </div>
