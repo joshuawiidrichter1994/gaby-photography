@@ -208,13 +208,11 @@ function Landing() {
       </main>
       {/* FOOTER */}
       <div className="footer-top">
-        <img
-          className="footer-top-image"
-          src={require('../img/compressed/10.JPG')}
-        />
-        <div className="footer-top-text">
-          Fine art photographer seeking to capture identities, expressions, &
-          auras of people.
+        <div className="footer-top-text-container">
+          <span className="footer-top-text">
+            Fine art photographer seeking to capture identities, expressions, &
+            auras of people.
+          </span>
         </div>
       </div>
       <footer>

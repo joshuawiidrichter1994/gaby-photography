@@ -73,7 +73,7 @@ ul {
     }
 }
 
-/* Mobile */
+/* Tablet */
 
 @media only screen and (max-width: 767px) {
     .header-desktop {
@@ -97,8 +97,8 @@ ul {
     }
 
     .menu-icon {
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
         margin: 0px 50px 0px 0px;
     }
 
@@ -147,6 +147,8 @@ ul {
         background-color: rgb(109, 101, 89);
     }
 }
+
+/* Mobile */
 
 @media only screen and (max-width: 450px) {
     .menu-icon {
@@ -381,42 +383,125 @@ h1 {
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
+    .footer-top {
+        height: 600px;
+    }
+
+    .footer-top-text-container {
+        padding: 25px 75px 25px 75px;
+    }
+
     .footer-top-text {
-        font-size: 75px;
+        font-size: 80px;
+    }
+
+    .subscribe-input {
+        height: 50px;
+        width: 250px;
+        padding: 0px 0px 0px 15px;
+    }
+
+    .subscribe-button {
+        height: 50px;
+        width: 150px;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (max-width: 767px) {
+    .footer-top {
+        height: 600px;
+    }
+
+    .footer-top-text-container {
+        padding: 25px 50px 25px 50px;
+    }
+
+    .footer-top-text {
+        font-size: 65px;
+    }
+    .subscribe-input {
+        height: 40px;
+        width: 200px;
+        padding: 0;
+    }
+
+    .subscribe-button {
+        height: 40px;
+        width: 100px;
+    }
+}
+
+/* Tablet/Mobile */
+@media only screen and (max-width: 600px) {
+    .footer-top {
+        height: 500px;
+    }
+
+    .footer-top-text-container {
+        padding: 25px 50px 25px 50px;
+    }
+
+    .footer-top-text {
+        font-size: 50px;
+    }
+
+    .subscribe-input {
+        height: 40px;
+        width: 200px;
+        padding: 0;
+    }
+
+    .subscribe-button {
+        height: 40px;
+        width: 100px;
     }
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 450px) {
+    .footer-top {
+        height: 400px;
+    }
+    .footer-top-text-container {
+        padding: 25px 25px 25px 25px;
+    }
     .footer-top-text {
-        font-size: 35px;
+        font-size: 40px;
+    }
+
+    .footer-nav-item {
+        font-size: 12px;
+    }
+
+    .subscribe-input {
+        height: 40px;
+        width: 200px;
+        padding: 0;
+    }
+
+    .subscribe-button {
+        height: 40px;
+        width: 100px;
     }
 }
 
+/* Rest */
+
 .footer-top {
-    position: relative;
-    width: 100%;
-    height: 500px;
+    display: flex;
+    background-image: url('../img/compressed/10.JPG');
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    background-size:cover;
     text-align: center;
-}
-
-.footer-top-image {
-    text-align: center;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
 }
 
 .footer-top-text {
-    font-family: "Italiana", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Italiana';
     color: white;
-    position: absolute;
-    padding: 0px 75px 0px 75px;
-    top: 25%;
-    left: 0;
 }
 
 footer {
@@ -434,6 +519,7 @@ footer {
 
 .subscribe-header {
     margin: 25px 0px 0px 25px;
+    padding: 0px 0px 10px 0px;
 }
 
 .subscribe-text {
@@ -446,12 +532,14 @@ footer {
 }
 
 .subscribe-input {
-    height: 50px;
-    width: 250px;
+    outline: none;
+    font-family: 'Italiana';
+    font-weight: 600;
+    letter-spacing: 0.1rem;
 }
 
-.subscrine-input::placeholder {
-    color: red;
+.subscribe-input::placeholder {
+    padding-left: 20px;
 }
 
 .subscribe-button {
@@ -459,8 +547,13 @@ footer {
     background-color: white;
     color: gray;
     border: none;
-    height: 50px;
-    width: 150px;
+    font-family: 'Italiana';
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.subscribe-button:hover {
+    cursor: pointer;
 }
 
 .footer-nav {
