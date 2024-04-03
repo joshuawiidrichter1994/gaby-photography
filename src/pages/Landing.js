@@ -128,7 +128,9 @@ function Landing() {
         <div className="portfolio-section">
           <div className="section-header">
             <span className="section-text-left">Portfolio</span>
-            <span className="section-text-right">View Work</span>
+            <span className="section-text-right">
+              <a href="./portfolio">View Work</a>
+            </span>
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
@@ -158,7 +160,9 @@ function Landing() {
         <div className="services-section">
           <div className="services-header">
             <span className="section-text-left">Services</span>
-            <span className="section-text-right">View packages</span>
+            <span className="section-text-right">
+              <a href="./services">View packages</a>
+            </span>
           </div>
           <div className="services-images">
             <div className="service-image-container">
@@ -179,7 +183,9 @@ function Landing() {
         <div className="blog-section">
           <div className="section-header">
             <span className="section-text-left">Blog</span>
-            <span className="section-text-right">View Work</span>
+            <span className="section-text-right">
+              <a href="./blog">View Work</a>
+            </span>
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
