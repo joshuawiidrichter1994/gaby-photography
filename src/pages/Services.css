@@ -3,7 +3,7 @@
         margin: 150px 0px 0px 0px;
     }
 
-    .header-container {
+    .services-container .header-container {
         padding: 50px 0px 0px 0px;
         margin: 0px 0px 0px 75px;
     }
@@ -18,13 +18,14 @@
     border-top: solid black;
 }
 
-.header-container {
+.services-container .header-container {
     display: flex;
 }
 
 .services-container .grid-row {
     display: flex;
     justify-content: space-around;
+    margin: 0px 0px 25px 0px;
 }
 
 .services-container .grid-item  {
