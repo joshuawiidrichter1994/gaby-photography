@@ -11,19 +11,20 @@ function Services() {
         <div className="grid-row">
           <div className="grid-item">
             <img
-              className="grid-image"
+              className="grid-item-image"
               src={require('../img/compressed/5.JPG')}
             />
+            <div className="grid-item-text"></div>
           </div>
           <div className="grid-item">
             <img
-              className="grid-image"
+              className="grid-item-image"
               src={require('../img/compressed/7.jpg')}
             />
           </div>
           <div className="grid-item">
             <img
-              className="grid-image"
+              className="grid-item-image"
               src={require('../img/compressed/6.JPG')}
             />
           </div>

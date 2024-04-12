@@ -13,13 +13,13 @@ function Portfolio() {
             <div className="grid-row">
               <div className="grid-item">
                 <img
-                  className="grid-image"
+                  className="grid-item-image"
                   src={require('../img/compressed/2.JPG')}
                 />
               </div>
               <div className="grid-item">
                 <img
-                  className="grid-image"
+                  className="grid-item-image"
                   src={require('../img/compressed/3.jpg')}
                 />
               </div>
@@ -27,13 +27,13 @@ function Portfolio() {
             <div className="grid-row">
               <div className="grid-item">
                 <img
-                  className="grid-image"
+                  className="grid-item-image"
                   src={require('../img/compressed/4.jpg')}
                 />
               </div>
               <div className="grid-item">
                 <img
-                  className="grid-image"
+                  className="grid-item-image"
                   src={require('../img/compressed/5.JPG')}
                 />
               </div>
@@ -41,13 +41,13 @@ function Portfolio() {
             <div className="grid-row">
               <div className="grid-item">
                 <img
-                  className="grid-image"
+                  className="grid-item-image"
                   src={require('../img/compressed/6.JPG')}
                 />
               </div>
               <div className="grid-item">
                 <img
-                  className="grid-image"
+                  className="grid-item-image"
                   src={require('../img/compressed/7.jpg')}
                 />
               </div>

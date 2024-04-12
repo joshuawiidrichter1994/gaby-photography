@@ -33,7 +33,7 @@
     height: auto;
 }
 
-.services-container .grid-image {
+.services-container .grid-item-image {
     height: 100%;
     width: 100%;
     object-fit: cover;
