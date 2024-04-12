@@ -29,7 +29,7 @@
 }
 
 .services-container .grid-item  {
-    width: 28%;
+    width: 30%;
     height: auto;
 }
 
@@ -39,7 +39,7 @@
     object-fit: cover;
 }
 
-.services-container .grid-item-text {
+/* .services-container .grid-item-text {
     
     height: 200px;
-}
+} */
