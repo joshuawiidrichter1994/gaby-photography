@@ -1,5 +1,5 @@
 @media only screen and (min-width: 768px) {
-    .portfolio-container {
+    .services-container {
         margin: 150px 0px 0px 0px;
     }
 
@@ -10,11 +10,11 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .portfolio-container {
+    .services-container {
         margin: 0px;
     }
 }
-.portfolio-container {
+.services-container {
     border-top: solid black;
 }
 
@@ -22,18 +22,17 @@
     display: flex;
 }
 
-.portfolio-container .grid-row {
+.services-container .grid-row {
     display: flex;
     justify-content: space-around;
-    margin: 0px 0px 25px 0px;
 }
 
-.portfolio-container .grid-item {
-    width: 45%;
+.services-container .grid-item  {
+    width: 28%;
     height: auto;
 }
 
-.portfolio-container .grid-image {
+.services-container .grid-image {
     height: 100%;
     width: 100%;
     object-fit: cover;

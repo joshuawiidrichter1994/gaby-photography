@@ -1,6 +1,3 @@
-import './pages/Landing.css';
-import './components/Header.css';
-import './components/Footer.css';
 import Landing from './pages/Landing';
 import Portfolio from './pages/Portfolio';
 import Blog from './pages/Blog';

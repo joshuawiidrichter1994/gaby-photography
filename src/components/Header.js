@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Header.css';
 
 function Header() {
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
@@ -19,17 +20,17 @@ function Header() {
         <div className="nav-container">
           <div className="nav-item">
             <span>
-              <a href="https://www.google.com/">BLOG</a>
+              <a href="./blog">BLOG</a>
             </span>
           </div>
           <div className="nav-item">
             <span>
-              <a href="https://www.google.com/">WORKS</a>
+              <a href="./portfolio">WORKS</a>
             </span>
           </div>
           <div className="nav-item">
             <span>
-              <a href="https://www.google.com/">SERVICES</a>
+              <a href="./services">SERVICES</a>
             </span>
           </div>
           <div className="nav-item">
