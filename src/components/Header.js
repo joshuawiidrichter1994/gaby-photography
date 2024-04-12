@@ -12,7 +12,9 @@ function Header() {
       {/* desktop */}
       <header className="header-desktop">
         <div className="icon-container">
-          <img className="icon" src={require('../img/logo.jpg')} />
+          <a href="./">
+            <img className="icon" src={require('../img/logo.jpg')} />
+          </a>
         </div>
         <div className="nav-container">
           <div className="nav-item">
