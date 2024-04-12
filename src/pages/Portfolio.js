@@ -1,19 +1,12 @@
 import React from 'react';
+import './Portfolio.css';
 
 function Portfolio() {
   return (
     <div>
       <main>
-        <div className="intro">
-          <div>
-            <h1>Gaby Isabelle Photography</h1>
-          </div>
-          <div className="intro-image-container">
-            <img
-              className="intro-img"
-              src={require('../img/compressed/1.JPG')}
-            />
-          </div>
+        <div className="container">
+          <h1 className="container-header">Works</h1>
         </div>
       </main>
     </div>
