@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../components/ContactForm';
 import './Services.css';
 
 function Services() {
@@ -58,67 +59,77 @@ function Services() {
               </span>
             </div>
             <div className="contact-section-right">
-              <form
+              <ContactForm />
+              {/* <form
                 className="contact-form"
-                action="mailto:info@example.com"
-                method="GET"
+                action="mailto:joshuawiidrichter@gmail.com"
+                method="post"
+                encType="text/plain"
+                autoComplete="off"
               >
-                <span>name (required)</span>
+                <span>name</span>
                 <div className="contact-form-name-container">
                   <div className="contact-form-name-item">
-                    <label>First Name</label>
-                    <br />
+                    <label htmlFor="first-name">First Name</label>
                     <input
                       type="text"
                       name="first-name"
+                      placeholder="first name"
                       className="contact-form-field-name"
+                      id="first-name"
                       required
-                    ></input>
+                    />
                   </div>
                   <div className="contact-form-name-item">
-                    <label>Last Name</label>
-                    <br />
+                    <label htmlFor="last-name">Last Name</label>
                     <input
                       type="text"
                       name="last-name"
+                      placeholder="last name"
                       className="contact-form-field-name"
+                      id="last-name"
                       required
-                    ></input>
+                    />
                   </div>
                 </div>
                 <div className="contact-form-email">
-                  <label>Email (required)</label>
-                  <br />
+                  <label htmlFor="email">Email</label>
                   <input
                     type="text"
                     name="email"
+                    placeholder="email"
                     className="contact-form-field"
+                    id="email"
                     required
-                  ></input>
+                  />
                 </div>
                 <div className="contact-form-phone">
-                  <label>Phone</label>
-                  <br />
+                  <label htmlFor="phone">Phone</label>
                   <input
                     type="text"
                     name="phone"
+                    placeholder="phone"
                     className="contact-form-field"
-                  ></input>
+                    id="phone"
+                  />
                 </div>
                 <div className="contact-form-message">
-                  <label>Message (required)</label>
-                  <br />
+                  <label htmlFor="message">Message</label>
                   <input
                     type="text"
                     name="message"
+                    placeholder="message"
                     className="contact-form-field-message"
+                    id="message"
                     required
-                  ></input>
+                  />
                 </div>
-                <button type="submit" className="contact-form-submit-btn">
-                  Submit
-                </button>
-              </form>
+                <input
+                  type="submit"
+                  value="Submit"
+                  className="contact-form-submit-btn"
+                />
+              </form> */}
             </div>
           </div>
         </div>
