@@ -17,7 +17,9 @@ function Services() {
                   src={require('../img/compressed/5.JPG')}
                 />
                 <div className="grid-item-text">
-                  <span>Branded Portraits</span>
+                  <span className="grid-item-text-header">
+                    Branded Portraits
+                  </span>
                   <p>
                     Don’t worry about sounding professional. Sound like you.
                   </p>
@@ -29,7 +31,9 @@ function Services() {
                   src={require('../img/compressed/7.jpg')}
                 />
                 <div className="grid-item-text">
-                  <span>Natural Lighting</span>
+                  <span className="grid-item-text-header">
+                    Natural Lighting
+                  </span>
                   <p>
                     Your goal should be to make it feel right for right now.
                   </p>
@@ -41,16 +45,18 @@ function Services() {
                   src={require('../img/compressed/6.JPG')}
                 />
                 <div className="grid-item-text">
-                  <span>Natural Lighting</span>
-                  <p>
-                    Your goal should be to make it feel right for right now.
-                  </p>
+                  <span className="grid-item-text-header">Groups</span>
+                  <p>Be clear, be confident, and don’t overthink it.</p>
                 </div>
               </div>
             </div>
           </div>
           <div className="contact-section">
-            <div className="contact-section-left"></div>
+            <div className="contact-section-left">
+              <span className="contact-section-left-text">
+                Reach out to inquire about my services
+              </span>
+            </div>
             <div className="contact-section-right"></div>
           </div>
         </div>

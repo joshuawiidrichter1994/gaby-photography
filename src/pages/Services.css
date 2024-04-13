@@ -25,12 +25,13 @@
 .services-container .grid-row {
     display: flex;
     justify-content: space-around;
+    height: 1000px;
     margin: 0px 0px 25px 0px;
 }
 
 .services-container .grid-item  {
     width: 30%;
-    height: auto;
+    height: 880px;
 }
 
 .services-container .grid-item-image {
@@ -39,6 +40,36 @@
     object-fit: cover;
 }
 
-.services-container .contact-section {
+.services-container .grid-item-text {
+    margin: 15px 0px 0px 0px;
+    text-align: left;
+}
 
+.services-container .grid-item-text-header {
+    font-family: 'Italiana';
+    font-size: 35px;
+}
+
+.services-container .contact-section {
+    display: flex;
+}
+
+.services-container .contact-section-left {
+    text-align: left;
+    height: 800px;
+    width: 50%;
+    padding: 100px 0px 0px 25px;
+}
+
+.services-container .contact-section-left-text {
+    font-family: 'Italiana';
+    line-height: 75%;
+    font-size: 85px;
+    letter-spacing: 0.1rem;
+    
+}
+
+.services-container .contact-section-right {
+    height: 800px;
+    width: 50%;
 }
