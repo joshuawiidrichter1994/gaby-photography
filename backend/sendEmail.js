@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -13,7 +14,7 @@ const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
     user: 'joshuawiidrichter@gmail.com', // Replace with your Gmail address
-    pass: '***', // Replace with your Gmail password or app-specific password
+    pass: process.env.GOOGLE_PASSWORD, // Replace with your Gmail password or app-specific password
   },
 });
 
