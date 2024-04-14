@@ -50,62 +50,72 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="firstName">First Name</label>
-        <input
-          type="text"
-          id="firstName"
-          name="firstName"
-          value={formData.firstName}
-          onChange={handleChange}
-          required
-        />
+    <form className="contact-form" onSubmit={handleSubmit}>
+      <div className="contact-form-name-container">
+        <div className="contact-form-name-item">
+          <label htmlFor="firstName">First Name</label>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            className="contact-form-field-name"
+            value={formData.firstName}
+            onChange={handleChange}
+            required
+          />
+        </div>
+        <div className="contact-form-name-item">
+          <label htmlFor="lastName">Last Name</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            className="contact-form-field-name"
+            value={formData.lastName}
+            onChange={handleChange}
+            required
+          />
+        </div>
       </div>
-      <div>
-        <label htmlFor="lastName">Last Name</label>
-        <input
-          type="text"
-          id="lastName"
-          name="lastName"
-          value={formData.lastName}
-          onChange={handleChange}
-          required
-        />
-      </div>
-      <div>
+
+      <div className="contact-form-email">
         <label htmlFor="email">Email</label>
         <input
           type="email"
           id="email"
           name="email"
+          className="contact-form-field"
           value={formData.email}
           onChange={handleChange}
           required
         />
       </div>
-      <div>
+      <div className="contact-form-phone">
         <label htmlFor="phone">Phone</label>
         <input
           type="tel"
           id="phone"
           name="phone"
+          className="contact-form-field"
           value={formData.phone}
           onChange={handleChange}
           required
         />
       </div>
-      <div>
+      <div className="contact-form-message">
         <label htmlFor="message">Message</label>
         <textarea
           id="message"
           name="message"
+          className="contact-form-field-message"
           value={formData.message}
           onChange={handleChange}
           required
         />
       </div>
-      <button type="submit">Submit</button>
+      <button className="contact-form-submit-btn" type="submit">
+        Submit
+      </button>
     </form>
   );
 };
