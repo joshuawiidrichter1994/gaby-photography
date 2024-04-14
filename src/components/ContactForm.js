@@ -18,24 +18,35 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Send form data to the specified email address (replace 'YOUR_EMAIL_ADDRESS' with the actual email address)
-    const emailData = {
-      to: 'joshuawiidrichter@gmail.com',
-      subject: 'Contact Form Submission',
-      body: JSON.stringify(formData),
-    };
-    // Here you can use your preferred method to send the email, like an API call or a library like Nodemailer
-    console.log(emailData); // For demonstration purpose, printing the email data to console
-    // Optionally, you can reset the form fields after submission
-    setFormData({
-      firstName: '',
-      lastName: '',
-      email: '',
-      phone: '',
-      message: '',
-    });
+    try {
+      // Send form data to the backend API
+      const response = await fetch('http://localhost:3001/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+      if (response.ok) {
+        console.log('Email sent successfully');
+        // Optionally, reset the form fields after successful submission
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          phone: '',
+          message: '',
+        });
+      } else {
+        console.error('Error sending email:', response.statusText);
+        // Handle the error appropriately (e.g., show an error message to the user)
+      }
+    } catch (error) {
+      console.error('Error sending email:', error.message);
+      // Handle the error appropriately (e.g., show an error message to the user)
+    }
   };
 
   return (
