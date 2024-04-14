@@ -2,19 +2,16 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 const mailgunTransport = require('nodemailer-mailgun-transport');
-const cors = require('cors'); // Import the cors package
+const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-// Middleware to enable CORS
 app.use(cors());
 
-// Middleware to parse JSON bodies
 app.use(bodyParser.json());
 
-// Nodemailer transporter configuration for Mailgun
 const transporter = nodemailer.createTransport(
   mailgunTransport({
     auth: {
@@ -24,11 +21,9 @@ const transporter = nodemailer.createTransport(
   })
 );
 
-// Route to handle form submission and send email
 app.post('/api/send-email', (req, res) => {
   const { firstName, lastName, email, phone, message } = req.body;
 
-  // Compose email message
   const mailOptions = {
     from: 'joshuawiidrichter@gmail.com',
     to: 'joshuawiidrichter@gmail.com',
@@ -42,7 +37,6 @@ app.post('/api/send-email', (req, res) => {
     `,
   };
 
-  // Send email
   transporter.sendMail(mailOptions, (error, info) => {
     if (error) {
       console.error('Error occurred while sending email:', error);
@@ -54,7 +48,6 @@ app.post('/api/send-email', (req, res) => {
   });
 });
 
-// Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
