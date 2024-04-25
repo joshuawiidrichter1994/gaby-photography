@@ -35,7 +35,7 @@ function Header() {
           </div>
           <div className="nav-item">
             <span>
-              <a href="https://www.google.com/">ABOUT</a>
+              <a href="./about">ABOUT</a>
             </span>
           </div>
           <a href="https://www.google.com/" target="_blank">
