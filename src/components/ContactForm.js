@@ -52,7 +52,6 @@ const ContactForm = () => {
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
       <div className="contact-form-name-container">
-        <span>Name (required):</span>
         <div className="contact-form-name-item">
           <label htmlFor="firstName">First Name</label>
           <input
