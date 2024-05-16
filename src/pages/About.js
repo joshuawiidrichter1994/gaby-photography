@@ -13,7 +13,7 @@ function About() {
         </span>
       </div>
       <div className="about-img-container">
-        <img className="about-img" src={require('../img/compressed/1.JPG')} />
+        <img className="about-img" src={require('../img/gaby.jpg')} />
       </div>
       <div className="contact-container">
         <div className="contact-left">
