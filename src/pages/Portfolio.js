@@ -14,27 +14,13 @@ function Portfolio() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/2.JPG')}
+                  src={require('../img/final/portfolio/1.jpg')}
                 />
               </div>
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/3.jpg')}
-                />
-              </div>
-            </div>
-            <div className="grid-row">
-              <div className="grid-item">
-                <img
-                  className="grid-item-image"
-                  src={require('../img/compressed/4.jpg')}
-                />
-              </div>
-              <div className="grid-item">
-                <img
-                  className="grid-item-image"
-                  src={require('../img/compressed/5.JPG')}
+                  src={require('../img/final/portfolio/2.jpg')}
                 />
               </div>
             </div>
@@ -42,13 +28,27 @@ function Portfolio() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/6.JPG')}
+                  src={require('../img/final/portfolio/3.jpg')}
                 />
               </div>
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/7.jpg')}
+                  src={require('../img/final/portfolio/4.jpg')}
+                />
+              </div>
+            </div>
+            <div className="grid-row">
+              <div className="grid-item">
+                <img
+                  className="grid-item-image"
+                  src={require('../img/final/portfolio/5.jpg')}
+                />
+              </div>
+              <div className="grid-item">
+                <img
+                  className="grid-item-image"
+                  src={require('../img/final/portfolio/6.jpg')}
                 />
               </div>
             </div>
