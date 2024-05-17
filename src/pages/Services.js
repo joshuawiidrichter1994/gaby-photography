@@ -15,12 +15,10 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/5.JPG')}
+                  src={require('../img/final/portraits.JPG')}
                 />
                 <div className="grid-item-text">
-                  <span className="grid-item-text-header">
-                    Branded Portraits
-                  </span>
+                  <span className="grid-item-text-header">Portraits</span>
                   <p>
                     Don’t worry about sounding professional. Sound like you.
                   </p>
@@ -29,12 +27,10 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/7.jpg')}
+                  src={require('../img/final/brands.JPG')}
                 />
                 <div className="grid-item-text">
-                  <span className="grid-item-text-header">
-                    Natural Lighting
-                  </span>
+                  <span className="grid-item-text-header">Brands</span>
                   <p>
                     Your goal should be to make it feel right for right now.
                   </p>
@@ -43,10 +39,10 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src={require('../img/compressed/6.JPG')}
+                  src={require('../img/final/events.JPG')}
                 />
                 <div className="grid-item-text">
-                  <span className="grid-item-text-header">Groups</span>
+                  <span className="grid-item-text-header">Events</span>
                   <p>Be clear, be confident, and don’t overthink it.</p>
                 </div>
               </div>
