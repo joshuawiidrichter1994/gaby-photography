@@ -29,12 +29,12 @@
 }
 
 .portfolio-container .grid-item {
-    width: 45%;
-    height: auto;
+    width: 150px;
+    height: 350px; /* Adjusted height */
 }
 
 .portfolio-container .grid-item-image {
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit:contain;
 }
