@@ -48,7 +48,7 @@ function Services() {
               </div>
             </div>
           </div>
-          <div className="contact-section">
+          <div id="contact-section" className="contact-section">
             <div className="contact-section-left">
               <span className="contact-section-left-text">
                 Reach out to inquire about my services

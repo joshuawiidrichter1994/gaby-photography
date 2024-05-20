@@ -32,8 +32,10 @@
     width: 650px;
     height: 750px;
     border: solid black;
+    overflow: hidden;
+    /* position:relative; */
 }
 
 .portfolio-container .grid-item-image {
-    object-fit: cover;
-}
+object-fit: cover;
+}   

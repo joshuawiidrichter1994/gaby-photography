@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Header.css';
+import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
@@ -38,11 +39,11 @@ function Header() {
               <a href="./about">ABOUT</a>
             </span>
           </div>
-          <a href="https://www.google.com/" target="_blank">
+          <Link to="/services#contact-section">
             <div className="nav-button">
               <span>Get a Quote</span>
             </div>
-          </a>
+          </Link>
         </div>
       </header>
       {/* mobile */}
