@@ -39,7 +39,7 @@ function Header() {
               <a href="./about">ABOUT</a>
             </span>
           </div>
-          <Link to="/services#contact-section">
+          <Link to="/services#grid-item-text">
             <div className="nav-button">
               <span>Get a Quote</span>
             </div>

@@ -41,7 +41,7 @@ function Services() {
                   className="grid-item-image"
                   src={require('../img/final/events.JPG')}
                 />
-                <div className="grid-item-text">
+                <div id="grid-item-text" className="grid-item-text">
                   <span className="grid-item-text-header">Events</span>
                   <p>Be clear, be confident, and don’t overthink it.</p>
                 </div>
