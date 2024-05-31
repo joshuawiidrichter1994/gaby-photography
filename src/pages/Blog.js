@@ -12,31 +12,31 @@ function Blog() {
           <div className="blog-container">
             <img
               className="blog-img"
-              src={require('../img/compressed/1.JPG')}
+              src={require('../img/final/blogs/1.jpg')}
             />
             <div className="blog-info">
-              <span>25 April 2024</span>
-              <h2>The Beach</h2>
+              <span>3/11/24</span>
+              <p className="blog-heading">Photographing Pairs</p>
               <p>
                 The Beach is a wonderful place, just wonderful. Lots of sand,
                 sun, and saltwater. Sounds like a jol
               </p>
-              <a>read more...</a>
+              <a className="read-more-text">read more...</a>
             </div>
           </div>
           <div className="blog-container">
             <img
               className="blog-img"
-              src={require('../img/compressed/1.JPG')}
+              src={require('../img/final/blogs/2.jpg')}
             />
             <div className="blog-info">
-              <span>25 April 2024</span>
-              <h2>The Beach</h2>
+              <span>3/11/24</span>
+              <p className="blog-heading">Learning Light</p>
               <p>
                 The Beach is a wonderful place, just wonderful. Lots of sand,
                 sun, and saltwater. Sounds like a jol
               </p>
-              <a>read more...</a>
+              <a className="read-more-text">read more...</a>
             </div>
           </div>
         </div>
@@ -44,31 +44,31 @@ function Blog() {
           <div className="blog-container">
             <img
               className="blog-img"
-              src={require('../img/compressed/1.JPG')}
+              src={require('../img/final/blogs/3.JPG')}
             />
             <div className="blog-info">
-              <span>25 April 2024</span>
-              <h2>The Beach</h2>
+              <span>3/11/24</span>
+              <p className="blog-heading">Styling Your Subject</p>
               <p>
                 The Beach is a wonderful place, just wonderful. Lots of sand,
                 sun, and saltwater. Sounds like a jol
               </p>
-              <a>read more...</a>
+              <a className="read-more-text">read more...</a>
             </div>
           </div>
           <div className="blog-container">
             <img
               className="blog-img"
-              src={require('../img/compressed/1.JPG')}
+              src={require('../img/final/blogs/4.JPG')}
             />
             <div className="blog-info">
-              <span>25 April 2024</span>
-              <h2>The Beach</h2>
+              <span>3/11/24</span>
+              <p className="blog-heading">Environmental portraiture</p>
               <p>
                 The Beach is a wonderful place, just wonderful. Lots of sand,
                 sun, and saltwater. Sounds like a jol
               </p>
-              <a>read more...</a>
+              <a className="read-more-text">read more...</a>
             </div>
           </div>
         </div>
