@@ -19,7 +19,7 @@ const imageList = [
   require('../img/final/portfolio/14.jpg'),
   require('../img/final/portfolio/15.jpg'),
   require('../img/final/portfolio/16.jpg'),
-  require('../img/final/portfolio/17.jpg'),
+  // require('../img/final/portfolio/17.jpg'),
   require('../img/final/portfolio/18.jpg'),
   require('../img/final/portfolio/19.jpg'),
   require('../img/final/portfolio/20.jpg'),
