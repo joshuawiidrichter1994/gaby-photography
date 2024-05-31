@@ -17,10 +17,7 @@ function Landing() {
             <h1>Gaby Isabelle Photography</h1>
           </div>
           <div className="intro-image-container">
-            <img
-              className="intro-img"
-              src={require('../img/compressed/1.JPG')}
-            />
+            <img className="intro-img" src="/img/compressed/1.JPG" />
           </div>
         </div>
         {/* PORTFOLIO */}
@@ -33,24 +30,15 @@ function Landing() {
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
-              <img
-                className="section-image"
-                src={require('../img/compressed/2.JPG')}
-              />
+              <img className="section-image" src="/img/compressed/2.JPG" />
               <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
-              <img
-                className="section-image"
-                src={require('../img/compressed/3.jpg')}
-              />
+              <img className="section-image" src="/img/compressed/3.jpg" />
               <p className="section-image-text">Brands</p>
             </div>
             <div className="section-image-container">
-              <img
-                className="section-image"
-                src={require('../img/compressed/4.jpg')}
-              />
+              <img className="section-image" src="/img/compressed/4.jpg" />
               <p className="section-image-text">Portraits</p>
             </div>
           </div>
@@ -65,16 +53,10 @@ function Landing() {
           </div>
           <div className="services-images">
             <div className="service-image-container">
-              <img
-                className="service-image"
-                src={require('../img/compressed/5.JPG')}
-              />
+              <img className="service-image" src="/img/compressed/5.JPG" />
             </div>
             <div className="service-image-container">
-              <img
-                className="service-image"
-                src={require('../img/compressed/6.JPG')}
-              />
+              <img className="service-image" src="/img/compressed/6.JPG" />
             </div>
           </div>
         </div>
@@ -88,24 +70,15 @@ function Landing() {
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
-              <img
-                className="section-image"
-                src={require('../img/compressed/7.jpg')}
-              />
+              <img className="section-image" src="/img/compressed/7.jpg" />
               <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
-              <img
-                className="section-image"
-                src={require('../img/compressed/8.jpg')}
-              />
+              <img className="section-image" src="/img/compressed/8.jpg" />
               <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
-              <img
-                className="section-image"
-                src={require('../img/compressed/9.JPG')}
-              />
+              <img className="section-image" src="/img/compressed/9.JPG" />
               <p className="section-image-text">Travel</p>
             </div>
           </div>

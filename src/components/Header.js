@@ -15,7 +15,7 @@ function Header() {
       <header className="header-desktop">
         <div className="icon-container">
           <a href="./">
-            <img className="icon" src={require('../img/logo.jpg')} />
+            <img className="icon" src="/img/logo.jpg" />
           </a>
         </div>
         <div className="nav-container">
@@ -49,7 +49,7 @@ function Header() {
       {/* mobile */}
       <header className="header-mobile">
         <div className="icon-container">
-          <img className="icon" src={require('../img/logo.jpg')} />
+          <img className="icon" src="/img/logo.jpg" />
         </div>
 
         <div
@@ -62,7 +62,7 @@ function Header() {
           <img
             className="menu-icon"
             onClick={toggleMobileNav}
-            src={require('../img/mobile-menu.png')}
+            src="/img/mobile-menu.png"
           />
         </div>
 
@@ -76,7 +76,7 @@ function Header() {
           <img
             className="menu-icon"
             onClick={toggleMobileNav}
-            src={require('../img/cross.png')}
+            src="/img/cross.png"
           />
         </div>
       </header>

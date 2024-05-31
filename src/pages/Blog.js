@@ -10,10 +10,7 @@ function Blog() {
       <div className="blog-grid">
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src={require('../img/final/blogs/1.jpg')}
-            />
+            <img className="blog-img" src="/img/final/blogs/1.jpg" />
             <div className="blog-info">
               <span>3/11/24</span>
               <p className="blog-heading">Photographing Pairs</p>
@@ -25,10 +22,7 @@ function Blog() {
             </div>
           </div>
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src={require('../img/final/blogs/2.jpg')}
-            />
+            <img className="blog-img" src="/img/final/blogs/2.jpg" />
             <div className="blog-info">
               <span>3/11/24</span>
               <p className="blog-heading">Learning Light</p>
@@ -42,10 +36,7 @@ function Blog() {
         </div>
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src={require('../img/final/blogs/3.JPG')}
-            />
+            <img className="blog-img" src="/img/final/blogs/3.JPG" />
             <div className="blog-info">
               <span>3/11/24</span>
               <p className="blog-heading">Styling Your Subject</p>
@@ -57,10 +48,7 @@ function Blog() {
             </div>
           </div>
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src={require('../img/final/blogs/4.JPG')}
-            />
+            <img className="blog-img" src="/img/final/blogs/4.JPG" />
             <div className="blog-info">
               <span>3/11/24</span>
               <p className="blog-heading">Environmental portraiture</p>
