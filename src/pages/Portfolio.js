@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import LazyLoad from 'react-lazyload';
 import './Portfolio.css';
+import Spinner from '../components/Spinner';
 
 const imageList = [
   '/img/final/portfolio/1.jpg',
@@ -45,10 +46,41 @@ const imageList = [
 
 function Portfolio() {
   const [visibleCount, setVisibleCount] = useState(6);
+  const [loading, setLoading] = useState(false);
+  const loadMoreRef = useRef(null);
 
   const loadMore = () => {
-    setVisibleCount((prevCount) => prevCount + 6);
+    setLoading(true);
+    setTimeout(() => {
+      setVisibleCount((prevCount) => prevCount + 6);
+      setLoading(false);
+    }, 1000); // Simulate loading delay
   };
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting && !loading) {
+          loadMore();
+        }
+      },
+      {
+        root: null, // relative to the viewport
+        rootMargin: '0px',
+        threshold: 1.0, // trigger when 100% of the target is visible
+      }
+    );
+
+    if (loadMoreRef.current) {
+      observer.observe(loadMoreRef.current);
+    }
+
+    return () => {
+      if (loadMoreRef.current) {
+        observer.unobserve(loadMoreRef.current);
+      }
+    };
+  }, [loading, loadMoreRef]);
 
   const createRows = (images) => {
     const rows = [];
@@ -83,10 +115,8 @@ function Portfolio() {
             {createRows(imageList.slice(0, visibleCount))}
           </div>
           {visibleCount < imageList.length && (
-            <div className="load-more-container">
-              <button onClick={loadMore} className="load-more-button">
-                Load More
-              </button>
+            <div ref={loadMoreRef} className="load-more-container">
+              {loading && <Spinner />}
             </div>
           )}
         </div>
