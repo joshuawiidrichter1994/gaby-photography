@@ -91,25 +91,35 @@ function Header() {
         <div className="mobile-nav">
           <ul>
             <li className="mobile-nav-item">
-              <span>BLOG</span>
+              <span>
+                <a href="./blog">BLOG</a>
+              </span>
             </li>
             <li className="mobile-nav-item">
-              <span>WORKS</span>
+              <span>
+                <a href="./portfolio">WORKS</a>
+              </span>
             </li>
             <li className="mobile-nav-item">
-              <span>SERVICES</span>
+              <span>
+                <a href="./services">SERVICES</a>
+              </span>
             </li>
             <li className="mobile-nav-item">
-              <span>ABOUT</span>
+              <span>
+                <a href="./about">ABOUT</a>
+              </span>
             </li>
           </ul>
 
           <div className="mobile-nav-button-container">
-            <div className="mobile-nav-button">
-              <a href="https://www.google.com/" target="_blank">
-                <span>Get a Quote</span>
-              </a>
-            </div>
+            <Link to="/services#grid-item-text">
+              <div className="mobile-nav-button">
+                <a href="https://www.google.com/" target="_blank">
+                  <span>Get a Quote</span>
+                </a>
+              </div>
+            </Link>
           </div>
         </div>
       </div>
