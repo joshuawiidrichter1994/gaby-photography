@@ -1,5 +1,6 @@
 import Landing from './pages/Landing';
 import Portfolio from './pages/Portfolio';
+import BlogListings from './pages/BlogListings';
 import Blog from './pages/Blog';
 import Services from './pages/Services';
 import About from './pages/About';
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Landing />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
+          <Route exact path="/blog-listings" element={<BlogListings />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/about" element={<About />} />

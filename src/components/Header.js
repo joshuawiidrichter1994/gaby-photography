@@ -21,7 +21,7 @@ function Header() {
         <div className="nav-container">
           <div className="nav-item">
             <span>
-              <a href="./blog">BLOG</a>
+              <a href="./blog-listings">BLOG</a>
             </span>
           </div>
           <div className="nav-item">
@@ -92,7 +92,7 @@ function Header() {
           <ul>
             <li className="mobile-nav-item">
               <span>
-                <a href="./blog">BLOG</a>
+                <a href="./blog-listings">BLOG</a>
               </span>
             </li>
             <li className="mobile-nav-item">
