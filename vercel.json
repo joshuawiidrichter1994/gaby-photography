@@ -11,8 +11,7 @@
         "src": "/api/send-email",
         "dest": "backend/sendEmail.js"
       }
-    ],
-    "rewrites": [{ "source": "/(.*)", "destination": "/public/index.html" }]
+    ]
   }
 
   
