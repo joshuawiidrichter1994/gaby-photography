@@ -10,10 +10,6 @@
       {
         "src": "/api/send-email",
         "dest": "backend/sendEmail.js"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
       }
     ]
   }
