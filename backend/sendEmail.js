@@ -2,6 +2,9 @@ const nodemailer = require('nodemailer');
 const mailgunTransport = require('nodemailer-mailgun-transport');
 require('dotenv').config();
 
+console.log('MAILGUN_API_KEY:', process.env.MAILGUN_API_KEY);
+console.log('MAILGUN_DOMAIN:', process.env.MAILGUN_DOMAIN);
+
 const transporter = nodemailer.createTransport(
   mailgunTransport({
     auth: {
@@ -12,6 +15,8 @@ const transporter = nodemailer.createTransport(
 );
 
 module.exports = async (req, res) => {
+  console.log('Function invoked');
+
   // Set CORS headers to allow requests from specific origins
   res.setHeader('Access-Control-Allow-Origin', 'https://gaby-photography.com');
   res.setHeader('Access-Control-Allow-Methods', 'POST');
@@ -19,10 +24,15 @@ module.exports = async (req, res) => {
 
   // Handle only POST requests
   if (req.method !== 'POST') {
+    console.log('Method not allowed');
     return res.status(405).send('Method Not Allowed');
   }
 
+  console.log('Request method:', req.method);
+
   const { firstName, lastName, email, phone, message } = req.body;
+
+  console.log('Request body:', req.body);
 
   const mailOptions = {
     from: 'joshuawiidrichter@gmail.com',
@@ -43,6 +53,6 @@ module.exports = async (req, res) => {
     res.status(200).send('Email sent successfully');
   } catch (error) {
     console.error('Error occurred while sending email:', error);
-    res.status(500).send('Error sending email');
+    res.status(500).send(`Error sending email: ${error.message}`);
   }
 };
