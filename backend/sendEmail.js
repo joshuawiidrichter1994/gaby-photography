@@ -12,6 +12,12 @@ const transporter = nodemailer.createTransport(
 );
 
 module.exports = async (req, res) => {
+  // Set CORS headers to allow requests from specific origins
+  res.setHeader('Access-Control-Allow-Origin', 'https://your-domain.com');
+  res.setHeader('Access-Control-Allow-Methods', 'POST');
+  res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  // Handle only POST requests
   if (req.method !== 'POST') {
     return res.status(405).send('Method Not Allowed');
   }
