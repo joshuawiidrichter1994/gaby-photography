@@ -2,8 +2,14 @@ const nodemailer = require('nodemailer');
 const mailgunTransport = require('nodemailer-mailgun-transport');
 require('dotenv').config();
 
-console.log('MAILGUN_API_KEY:', process.env.MAILGUN_API_KEY);
-console.log('MAILGUN_DOMAIN:', process.env.MAILGUN_DOMAIN);
+console.log(
+  'MAILGUN_API_KEY:',
+  process.env.MAILGUN_API_KEY ? 'exists' : 'missing'
+);
+console.log(
+  'MAILGUN_DOMAIN:',
+  process.env.MAILGUN_DOMAIN ? 'exists' : 'missing'
+);
 
 const transporter = nodemailer.createTransport(
   mailgunTransport({
