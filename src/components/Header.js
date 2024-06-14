@@ -22,6 +22,7 @@ function Header() {
           <div className="nav-item">
             <span>
               <a href="./blog-listings">BLOG</a>
+              <Link to="./blog-listings"></Link>
             </span>
           </div>
           <div className="nav-item">

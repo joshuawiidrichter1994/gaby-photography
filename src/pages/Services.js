@@ -15,7 +15,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/final/portraits.JPG"
+                  src="/img/services/portraits.JPG"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Portraits</span>
@@ -25,7 +25,10 @@ function Services() {
                 </div>
               </div>
               <div className="grid-item">
-                <img className="grid-item-image" src="/img/final/brands.JPG" />
+                <img
+                  className="grid-item-image"
+                  src="/img/services/brands.JPG"
+                />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Brands</span>
                   <p>
@@ -34,7 +37,10 @@ function Services() {
                 </div>
               </div>
               <div className="grid-item">
-                <img className="grid-item-image" src="/img/final/events.JPG" />
+                <img
+                  className="grid-item-image"
+                  src="/img/services/events.JPG"
+                />
                 <div id="grid-item-text" className="grid-item-text">
                   <span className="grid-item-text-header">Events</span>
                   <p>Be clear, be confident, and don’t overthink it.</p>

@@ -4,44 +4,44 @@ import './Portfolio.css';
 import Spinner from '../components/Spinner';
 
 const imageList = [
-  '/img/final/portfolio/1.jpg',
-  '/img/final/portfolio/2.jpg',
-  '/img/final/portfolio/3.jpg',
-  '/img/final/portfolio/4.jpg',
-  '/img/final/portfolio/5.jpg',
-  '/img/final/portfolio/6.jpg',
-  '/img/final/portfolio/7.jpg',
-  '/img/final/portfolio/8.jpg',
-  '/img/final/portfolio/9.jpg',
-  '/img/final/portfolio/10.jpg',
-  '/img/final/portfolio/11.jpg',
-  '/img/final/portfolio/12.jpg',
-  '/img/final/portfolio/13.jpg',
-  '/img/final/portfolio/14.jpg',
-  '/img/final/portfolio/15.jpg',
-  '/img/final/portfolio/16.jpg',
-  '/img/final/portfolio/17.jpg',
-  '/img/final/portfolio/18.jpg',
-  '/img/final/portfolio/19.jpg',
-  '/img/final/portfolio/20.jpg',
-  '/img/final/portfolio/21.jpg',
-  '/img/final/portfolio/22.jpg',
-  '/img/final/portfolio/23.JPG',
-  '/img/final/portfolio/24.JPG',
-  '/img/final/portfolio/25.JPG',
-  '/img/final/portfolio/26.JPG',
-  '/img/final/portfolio/27.JPG',
-  '/img/final/portfolio/28.JPG',
-  '/img/final/portfolio/29.JPG',
-  '/img/final/portfolio/30.JPG',
-  '/img/final/portfolio/31.JPG',
-  '/img/final/portfolio/32.JPG',
-  '/img/final/portfolio/33.JPG',
-  '/img/final/portfolio/34.JPG',
-  '/img/final/portfolio/35.JPG',
-  '/img/final/portfolio/36.JPG',
-  '/img/final/portfolio/37.JPG',
-  '/img/final/portfolio/38.JPG',
+  '/img/works/1.jpg',
+  '/img/works/2.jpg',
+  '/img/works/3.jpg',
+  '/img/works/4.jpg',
+  '/img/works/5.jpg',
+  '/img/works/6.jpg',
+  '/img/works/7.jpg',
+  '/img/works/8.jpg',
+  '/img/works/9.jpg',
+  '/img/works/10.jpg',
+  '/img/works/11.jpg',
+  '/img/works/12.jpg',
+  '/img/works/13.jpg',
+  '/img/works/14.jpg',
+  '/img/works/15.jpg',
+  '/img/works/16.jpg',
+  '/img/works/17.jpg',
+  '/img/works/18.jpg',
+  '/img/works/19.jpg',
+  '/img/works/20.jpg',
+  '/img/works/21.jpg',
+  '/img/works/22.jpg',
+  '/img/works/23.JPG',
+  '/img/works/24.JPG',
+  '/img/works/25.JPG',
+  '/img/works/26.JPG',
+  '/img/works/27.JPG',
+  '/img/works/28.JPG',
+  '/img/works/29.JPG',
+  '/img/works/30.JPG',
+  '/img/works/31.JPG',
+  '/img/works/32.JPG',
+  '/img/works/33.JPG',
+  '/img/works/34.JPG',
+  '/img/works/35.JPG',
+  '/img/works/36.JPG',
+  '/img/works/37.JPG',
+  '/img/works/38.JPG',
 ];
 
 function Portfolio() {
@@ -54,7 +54,7 @@ function Portfolio() {
     setTimeout(() => {
       setVisibleCount((prevCount) => prevCount + 6);
       setLoading(false);
-    }, 1000); // Simulate loading delay
+    }, 1000);
   };
 
   useEffect(() => {
@@ -65,9 +65,9 @@ function Portfolio() {
         }
       },
       {
-        root: null, // relative to the viewport
+        root: null,
         rootMargin: '0px',
-        threshold: 1.0, // trigger when 100% of the target is visible
+        threshold: 1.0,
       }
     );
 

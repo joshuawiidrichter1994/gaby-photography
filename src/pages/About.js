@@ -13,7 +13,7 @@ function About() {
         </span>
       </div>
       <div className="about-img-container">
-        <img className="about-img" src="/img/final/gaby.jpg" />
+        <img className="about-img" src="/img/about/about.jpg" />
       </div>
       <div className="contact-container">
         <div className="contact-left">
