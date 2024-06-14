@@ -22,13 +22,16 @@ const ContactForm = () => {
     e.preventDefault();
     try {
       // Send form data to the backend API
-      const response = await fetch('http://localhost:3001/api/send-email', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        'https://gaby-photography.vercel.app/api/send-email',
+        {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       if (response.ok) {
         console.log('Email sent successfully');
         // Optionally, reset the form fields after successful submission
