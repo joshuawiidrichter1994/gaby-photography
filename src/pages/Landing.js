@@ -53,7 +53,7 @@ function Landing() {
           </div>
           <div className="services-images">
             <div className="service-image-container">
-              <img className="service-image" src="/img/works/13.JPG" />
+              <img className="service-image" src="/img/home/5.JPG" />
             </div>
             <div className="service-image-container">
               <img className="service-image" src="/img/home/6.JPG" />
