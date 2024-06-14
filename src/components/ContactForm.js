@@ -21,7 +21,6 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      // Send form data to the backend API
       const response = await fetch(
         'https://gaby-photography.vercel.app/api/send-email',
         {
