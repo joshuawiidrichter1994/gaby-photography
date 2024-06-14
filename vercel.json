@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/api/send-email",
-        "dest": "/api/sendEmail.js"
+        "dest": "/backend/sendEmail.js"
       }
     ]
   }
