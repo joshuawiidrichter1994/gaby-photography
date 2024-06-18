@@ -19,9 +19,7 @@ function Services() {
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Portraits</span>
-                  <p>
-                    Don’t worry about sounding professional. Sound like you.
-                  </p>
+                  <p>Candid, genuine and real - just like you.</p>
                 </div>
               </div>
               <div className="grid-item">
@@ -31,9 +29,7 @@ function Services() {
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Brands</span>
-                  <p>
-                    Your goal should be to make it feel right for right now.
-                  </p>
+                  <p>Partnerships with intentional businesses.</p>
                 </div>
               </div>
               <div className="grid-item">
@@ -43,7 +39,7 @@ function Services() {
                 />
                 <div id="grid-item-text" className="grid-item-text">
                   <span className="grid-item-text-header">Events</span>
-                  <p>Be clear, be confident, and don’t overthink it.</p>
+                  <p>Creating memories, capturing moments in time.</p>
                 </div>
               </div>
             </div>
