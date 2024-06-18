@@ -40,7 +40,7 @@
     }
 
     .nav-item-text:hover {
-        border-bottom: solid black;
+        border-bottom: solid rgb(109, 101, 89);
     }
     
     .nav-button {

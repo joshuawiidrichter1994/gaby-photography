@@ -65,7 +65,7 @@ function Landing() {
           <div className="section-header">
             <span className="section-text-left">Blog</span>
             <span className="section-text-right">
-              <a href="./blog">View Work</a>
+              <a href="./blog">Read more</a>
             </span>
           </div>
           <div className="section-images-container">
@@ -79,7 +79,7 @@ function Landing() {
             </div>
             <div className="section-image-container">
               <img className="section-image" src="/img/home/9.JPG" />
-              <p className="section-image-text">Styling Your Subject</p>
+              <p className="section-image-text">Environmental Portraiture</p>
             </div>
           </div>
         </div>
