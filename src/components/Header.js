@@ -20,23 +20,23 @@ function Header() {
         </div>
         <div className="nav-container">
           <div className="nav-item">
-            <span>
+            <span className="nav-item-text">
               <a href="./blog-listings">BLOG</a>
               <Link to="./blog-listings"></Link>
             </span>
           </div>
           <div className="nav-item">
-            <span>
+            <span className="nav-item-text">
               <a href="./portfolio">WORKS</a>
             </span>
           </div>
           <div className="nav-item">
-            <span>
+            <span className="nav-item-text">
               <a href="./services">SERVICES</a>
             </span>
           </div>
           <div className="nav-item">
-            <span>
+            <span className="nav-item-text">
               <a href="./about">ABOUT</a>
             </span>
           </div>

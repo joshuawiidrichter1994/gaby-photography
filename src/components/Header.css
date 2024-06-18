@@ -38,6 +38,10 @@
         height: auto;
         width: auto;
     }
+
+    .nav-item-text:hover {
+        border-bottom: solid black;
+    }
     
     .nav-button {
         color: white;
