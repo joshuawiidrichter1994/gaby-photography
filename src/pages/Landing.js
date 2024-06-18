@@ -71,15 +71,15 @@ function Landing() {
           <div className="section-images-container">
             <div className="section-image-container">
               <img className="section-image" src="/img/home/7.jpg" />
-              <p className="section-image-text">Travel</p>
+              <p className="section-image-text">Photographing Pairs</p>
             </div>
             <div className="section-image-container">
               <img className="section-image" src="/img/home/8.jpg" />
-              <p className="section-image-text">Travel</p>
+              <p className="section-image-text">Learning Light</p>
             </div>
             <div className="section-image-container">
               <img className="section-image" src="/img/home/9.JPG" />
-              <p className="section-image-text">Travel</p>
+              <p className="section-image-text">Styling Your Subject</p>
             </div>
           </div>
         </div>
