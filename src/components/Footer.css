@@ -185,4 +185,5 @@ footer {
 
 .nav-item-text {
     border-bottom: solid white;
+    border-width: 1px;
 }
