@@ -65,21 +65,27 @@ function Landing() {
           <div className="section-header">
             <span className="section-text-left">Blog</span>
             <span className="section-text-right">
-              <a href="./blog">Read more</a>
+              <a href="./blog-listings">Read more</a>
             </span>
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/7.jpg" />
-              <p className="section-image-text">Photographing Pairs</p>
+              <a href="./blog">
+                <img className="section-image" src="/img/home/7.jpg" />
+                <p className="section-image-text">Photographing Pairs</p>
+              </a>
             </div>
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/8.jpg" />
-              <p className="section-image-text">Learning Light</p>
+              <a href="./blog">
+                <img className="section-image" src="/img/home/8.jpg" />
+                <p className="section-image-text">Learning Light</p>
+              </a>
             </div>
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/9.JPG" />
-              <p className="section-image-text">Environmental Portraiture</p>
+              <a href="./blog">
+                <img className="section-image" src="/img/home/9.JPG" />
+                <p className="section-image-text">Environmental Portraiture</p>
+              </a>
             </div>
           </div>
         </div>
