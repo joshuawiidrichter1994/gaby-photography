@@ -1,21 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 import { HashLink as Link } from 'react-router-hash-link';
 
 function Header() {
   const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMobileNav = () => {
     setIsMobileNavVisible(!isMobileNavVisible);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 0) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div>
+    <div className={isScrolled ? 'scrolled' : ''}>
       {/* desktop */}
       <header className="header-desktop">
         <div className="icon-container">
           <a href="./">
-            <img className="icon" src="/img/logo.jpg" />
+            <img className="icon" src="/img/logo.jpg" alt="Logo" />
           </a>
         </div>
         <div className="nav-container">
@@ -50,7 +67,7 @@ function Header() {
       {/* mobile */}
       <header className="header-mobile">
         <div className="icon-container">
-          <img className="icon" src="/img/logo.jpg" />
+          <img className="icon" src="/img/logo.jpg" alt="Logo" />
         </div>
 
         <div
@@ -64,6 +81,7 @@ function Header() {
             className="menu-icon"
             onClick={toggleMobileNav}
             src="/img/mobile-menu.png"
+            alt="Menu"
           />
         </div>
 
@@ -78,6 +96,7 @@ function Header() {
             className="menu-icon"
             onClick={toggleMobileNav}
             src="/img/cross.png"
+            alt="Close"
           />
         </div>
       </header>
@@ -116,7 +135,11 @@ function Header() {
           <div className="mobile-nav-button-container">
             <Link to="/services#grid-item-text">
               <div className="mobile-nav-button">
-                <a href="https://www.google.com/" target="_blank">
+                <a
+                  href="https://www.google.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <span>Get a Quote</span>
                 </a>
               </div>

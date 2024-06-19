@@ -22,7 +22,8 @@
 .about-container .sub-heading-text {
     font-family: 'Italiana';
     font-size: 30px;
-    padding: 0px 0px 0px 25px;
+    padding: 0px 0px 0px 15px;
+    display: flex;
 }
 
 .about-container .about-img-container {
