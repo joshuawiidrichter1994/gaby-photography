@@ -14,9 +14,6 @@
         margin: 0px;
     }
 }
-.portfolio-container {
-    border-top: solid black;
-}
 
 .portfolio-container .header-container {
     display: flex;

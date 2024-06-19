@@ -21,6 +21,17 @@
         padding: 0px 25px 0 25px;
     }
 
+    header:after {
+        content: "";
+        display: block;
+        height: 10px;
+        width: 100%;
+        background: linear-gradient(to bottom, rgb(163, 163, 163), rgb(255, 255, 255));
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+
     .icon {
         height: 100px;
     }

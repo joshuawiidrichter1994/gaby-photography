@@ -16,10 +16,6 @@
     }
 }
 
-.blogs-container {
-    border-top: solid black;
-}
-
 .blogs-container .blog-grid-row {
     display: flex;
 }
