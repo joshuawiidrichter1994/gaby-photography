@@ -183,7 +183,7 @@ footer {
     padding: 0px 0px 10px 0px;
 }
 
-.nav-item-text {
+.footer-nav-item .nav-item-text {
     border-bottom: solid white;
     border-width: 1px;
 }

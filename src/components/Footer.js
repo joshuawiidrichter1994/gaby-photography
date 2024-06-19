@@ -35,22 +35,22 @@ function Footer() {
         <div className="footer-nav">
           <div className="footer-nav-item">
             <span className="nav-item-text">
-              <a href="https://www.google.com/">WORKS</a>
+              <a href="./portfolio">WORKS</a>
             </span>
           </div>
           <div className="footer-nav-item">
             <span className="nav-item-text">
-              <a href="https://www.google.com/">SERVICES</a>
+              <a href="./services">SERVICES</a>
             </span>
           </div>
           <div className="footer-nav-item">
             <span className="nav-item-text">
-              <a href="https://www.google.com/">BLOG</a>
+              <a href="./blog-listings">BLOG</a>
             </span>
           </div>
           <div className="footer-nav-item">
             <span className="nav-item-text">
-              <a href="https://www.google.com/">ABOUT</a>
+              <a href="./about">ABOUT</a>
             </span>
           </div>
         </div>
