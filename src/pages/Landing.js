@@ -48,7 +48,7 @@ function Landing() {
           <div className="services-header">
             <span className="section-text-left">Services</span>
             <span className="section-text-right">
-              <a href="./services">View packages</a>
+              <a href="./services">View Packages</a>
             </span>
           </div>
           <div className="services-images">
@@ -65,7 +65,7 @@ function Landing() {
           <div className="section-header">
             <span className="section-text-left">Blog</span>
             <span className="section-text-right">
-              <a href="./blog-listings">Read more</a>
+              <a href="./blog-listings">Read More</a>
             </span>
           </div>
           <div className="section-images-container">
