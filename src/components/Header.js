@@ -67,7 +67,9 @@ function Header() {
       {/* mobile */}
       <header className="header-mobile">
         <div className="icon-container">
-          <img className="icon" src="/img/logo.jpg" alt="Logo" />
+          <a href="/">
+            <img className="icon" src="/img/logo.jpg" alt="Logo" />
+          </a>
         </div>
 
         <div
