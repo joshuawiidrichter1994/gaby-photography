@@ -1,47 +1,105 @@
-.contact-form {
-    padding: 0px 25px 0px 0px;
+
+
+@media only screen and (min-width: 768px) {
+    .contact-form {
+        padding: 0px 25px 0px 0px;
+    }
+    
+    .contact-form-name-container {
+        display: flex;
+    }
+    
+    .contact-form-name-item {
+        width: 50%;
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-email {
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-phone {
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-message {
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-field-name {
+        width: 100%;
+    }
+    
+    .contact-form-field {
+        width: 100%;
+    }
+    
+    .contact-form-field-message {
+        height: 150px;
+        width: 100%;
+    }
+    
+    .contact-form-submit-btn {
+        margin: 20px 0px 0px 0px;
+        background-color: rgb(109, 101, 89);
+        border: none;
+        color: white;
+        height: 35px;
+        width: 100px;
+        font-family: 'Poppins';
+    }
+
 }
 
-.contact-form-name-container {
-    display: flex;
-}
-
-.contact-form-name-item {
-    width: 50%;
-    padding: 15px 25px 0px 0px;
-}
-
-.contact-form-email {
-    padding: 15px 25px 0px 0px;
-}
-
-.contact-form-phone {
-    padding: 15px 25px 0px 0px;
-}
-
-.contact-form-message {
-    padding: 15px 25px 0px 0px;
-}
-
-.contact-form-field-name {
-    width: 100%;
-}
-
-.contact-form-field {
-    width: 100%;
-}
-
-.contact-form-field-message {
-    height: 150px;
-    width: 100%;
-}
-
-.contact-form-submit-btn {
-    margin: 20px 0px 0px 0px;
-    background-color: rgb(109, 101, 89);
-    border: none;
-    color: white;
-    height: 35px;
-    width: 100px;
-    font-family: 'Poppins';
+@media only screen and (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+    }
+    
+    .contact-form-name-container {
+        display: block;
+    }
+    
+    .contact-form-name-item {
+        width: 100%;
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-email {
+        width: 100%;
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-phone {
+        width: 100%;
+        padding: 15px 25px 0px 0px;
+    }
+    
+    .contact-form-message {
+        padding: 15px 25px 0px 0px;
+        width: 100%;
+    }
+    
+    .contact-form-field-name {
+        width: 100%;
+    }
+    
+    .contact-form-field {
+        width: 100%;
+    }
+    
+    .contact-form-field-message {
+        height: 150px;
+        width: 100%;
+    }
+    
+    .contact-form-submit-btn {
+        margin: 20px 0px 0px 0px;
+        background-color: rgb(109, 101, 89);
+        border: none;
+        color: white;
+        height: 35px;
+        width: 100px;
+        font-family: 'Poppins';
+    }
 }

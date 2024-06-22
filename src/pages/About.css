@@ -80,17 +80,14 @@
     }
     
     .about-container .contact-container {
-        display: flex;
-        margin: 80px 0px 80px 0px;
-        padding: 0px 50px 0px 50px;
+        margin: 10px 0px 10px 0px;
+        padding: 0px 15px 0px 15px;
     }
-    
-    .about-container .contact-left {
-        width: 50%;
+
+    .about-container .contact-left-text {
+        margin: 0px;
+        padding: 15px 0px 0px 15px;
     }
-    
-    .about-container .contact-right {
-        width: 50%;
-    }
+
 }
 

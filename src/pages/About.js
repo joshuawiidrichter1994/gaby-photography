@@ -17,7 +17,7 @@ function About() {
       </div>
       <div className="contact-container">
         <div className="contact-left">
-          <h1 className="conact-left-text">Contact</h1>
+          <h1 className="contact-left-text">Contact</h1>
         </div>
         <div className="contact-right">
           <ContactForm />
