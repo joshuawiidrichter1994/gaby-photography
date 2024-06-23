@@ -24,10 +24,7 @@ module.exports = async (req, res) => {
   console.log('Function invoked');
 
   // Set CORS headers to allow requests from specific origins
-  res.setHeader(
-    'Access-Control-Allow-Origin',
-    'https://gaby-photography.vercel.app'
-  );
+  res.setHeader('Access-Control-Allow-Origin', 'https://gaby-photography.com');
   res.setHeader('Access-Control-Allow-Methods', 'POST');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
