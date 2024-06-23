@@ -14,8 +14,8 @@ function BlogListings() {
             <div className="blog-info">
               <p className="blog-heading">Photographing Pairs</p>
               <p>
-                The Beach is a wonderful place, just wonderful. Lots of sand,
-                sun, and saltwater. Sounds like a jol
+                Tips and techniques for taking stunning photographs of couples
+                and pairs.
               </p>
               <a className="read-more-text" href="./blog">
                 read more...
@@ -27,8 +27,8 @@ function BlogListings() {
             <div className="blog-info">
               <p className="blog-heading">Learning Light</p>
               <p>
-                The Beach is a wonderful place, just wonderful. Lots of sand,
-                sun, and saltwater. Sounds like a jol
+                Here's how I play with natural light in different times of the
+                day to enhance moods and aesthetics.
               </p>
               <a className="read-more-text" href="./blog">
                 read more...
@@ -42,8 +42,9 @@ function BlogListings() {
             <div className="blog-info">
               <p className="blog-heading">Styling Your Subject</p>
               <p>
-                The Beach is a wonderful place, just wonderful. Lots of sand,
-                sun, and saltwater. Sounds like a jol
+                Styling is my favourite part of the shoot - especially the
+                planning stage. Here, I break the process down into three easy
+                steps.
               </p>
               <a className="read-more-text" href="./blog">
                 read more...
@@ -54,10 +55,7 @@ function BlogListings() {
             <img className="blog-img" src="/img/works/13.jpg" />
             <div className="blog-info">
               <p className="blog-heading">Environmental portraiture</p>
-              <p>
-                The Beach is a wonderful place, just wonderful. Lots of sand,
-                sun, and saltwater. Sounds like a jol
-              </p>
+              <p>Insights into different mood boards related to the setting.</p>
               <a className="read-more-text" href="./blog">
                 read more...
               </a>
