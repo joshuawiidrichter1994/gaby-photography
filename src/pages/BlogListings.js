@@ -54,7 +54,7 @@ function BlogListings() {
           <div className="blog-container">
             <img className="blog-img" src="/img/works/13.jpg" />
             <div className="blog-info">
-              <p className="blog-heading">Environmental portraiture</p>
+              <p className="blog-heading">Environmental Portraiture</p>
               <p>Insights into different mood boards related to the setting.</p>
               <a className="read-more-text" href="./blog">
                 read more...
