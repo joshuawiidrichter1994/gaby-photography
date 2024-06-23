@@ -34,6 +34,8 @@
 @media only screen and (max-width: 768px) {
     .portfolio-container {
         margin: 0px 0px 0px 0px;
+        width: 100%;
+        text-align: center;
     }
 
     .portfolio-container .header-container {
@@ -45,11 +47,14 @@
 
     .portfolio-container .header-text {
         margin: 25px 0px 25px 0px;
-       
-        
     }
 
     
+    .portfolio-container .grid-container {
+        width: 85%;
+        margin-left: 4%;
+    }
+
     .portfolio-container .grid-row {
         margin: 0px 0px 25px 0px;
         text-align: center;
