@@ -36,7 +36,7 @@ ul {
     }  
 }
 
-/* Mobile */
+/* Tablet */
 @media only screen and (max-width: 767px) {
     main {
         margin: 100px 0px 0px 0px;
@@ -50,6 +50,14 @@ ul {
         width: 100%;
     }
 }
+
+/* Mobile */
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
 
 /* Rest */
 
@@ -121,6 +129,18 @@ h1 {
     .services-header {
         padding: 0px 25px 25px 25px;
     }
+
+    .section-text-left {
+        font-size: 35px;
+        letter-spacing: 0.1rem;
+    }
+    
+    .section-text-right {
+        font-family: "Lato";
+        font-weight: 400;
+        text-decoration: underline;
+        letter-spacing: 0.1rem;
+    }
 }
 
 /* Tablet/Mobile */
@@ -130,8 +150,16 @@ h1 {
         height: 450px;
     }
 
-    .section-text-right{
-        font-size: 15px;
+    .section-text-left {
+        font-size: 25px;
+        letter-spacing: 0.1rem;
+    }
+    
+    .section-text-right {
+        font-family: "Lato";
+        font-weight: 400;
+        text-decoration: underline;
+        letter-spacing: 0.1rem;
     }
 }
 
@@ -148,6 +176,22 @@ h1 {
     .section-image-container {
         width: 250px;
         height: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .section-text-left {
+        font-size: 25px;
+        letter-spacing: 0.1rem;
+    }
+    
+    .section-text-right {
+        font-size: 10px;
+        font-family: "Lato";
+        font-weight: 400;
+        text-decoration: underline;
+        letter-spacing: 0.1rem;
     }
 }
 
@@ -187,18 +231,6 @@ h1 {
     font-style: normal;
     display: flex;
     justify-content: space-between;
-}
-
-.section-text-left {
-    font-size: 35px;
-    letter-spacing: 0.1rem;
-}
-
-.section-text-right {
-    font-family: "Lato";
-    font-weight: 400;
-    text-decoration: underline;
-    letter-spacing: 0.1rem;
 }
 
 .section-images-container {
