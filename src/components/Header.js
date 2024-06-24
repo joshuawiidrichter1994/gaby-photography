@@ -111,7 +111,7 @@ function Header() {
         }
       >
         <div className="mobile-nav">
-          <ul>
+          <ul className="mobile-nav-list">
             <li className="mobile-nav-item">
               <span>
                 <a href="./blog-listings">BLOG</a>
@@ -137,13 +137,7 @@ function Header() {
           <div className="mobile-nav-button-container">
             <Link to="/services#grid-item-text">
               <div className="mobile-nav-button">
-                <a
-                  href="https://www.google.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <span>Get a Quote</span>
-                </a>
+                <span>Get a Quote</span>
               </div>
             </Link>
           </div>
