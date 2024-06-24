@@ -39,14 +39,14 @@
     }
 
     .portfolio-container .header-container {
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
         text-align: left;
-        padding: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 10px;
         
     }
 
     .portfolio-container .header-text {
-        margin: 25px 0px 25px 0px;
+        margin: 0px 0px 20px 0px;
     }
 
     

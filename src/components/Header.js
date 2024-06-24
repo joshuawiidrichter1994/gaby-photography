@@ -136,7 +136,7 @@ function Header() {
 
           <div className="mobile-nav-button-container">
             <Link to="/services#grid-item-text">
-              <div className="mobile-nav-button">
+              <div className="mobile-nav-button" onClick={toggleMobileNav}>
                 <span>Get a Quote</span>
               </div>
             </Link>

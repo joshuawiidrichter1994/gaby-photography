@@ -25,7 +25,7 @@ const imageList = [
   '/img/works/19.jpg',
   '/img/works/20.jpg',
   '/img/works/21.jpg',
-  '/img/works/22.jpg',
+  '/img/works/22.JPG',
   '/img/works/23.JPG',
   '/img/works/24.JPG',
   '/img/works/25.JPG',
