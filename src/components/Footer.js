@@ -27,10 +27,10 @@ function Footer() {
             <input
               className="subscribe-input"
               type="text"
-              placeholder="Email address"
+              placeholder="EMAIL ADDRESS"
             />
           </div>
-          <button className="subscribe-button">Sign Up</button>
+          <button className="subscribe-button">SIGN UP</button>
         </div>
         <div className="footer-nav">
           <div className="footer-nav-item">
