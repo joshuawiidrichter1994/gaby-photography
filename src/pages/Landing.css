@@ -94,8 +94,13 @@ h1 {
         padding: 0px 25px 25px 25px;
     }
 
+    .section-text-left {
+        font-size: 35px;
+        letter-spacing: 0.1rem;
+    }
+
     .section-text-right {
-        font-size: 20px;
+        font-size: 22px;
         padding: 0;
         padding: 9px 0px 0px 0px;
     }
@@ -123,7 +128,7 @@ h1 {
     }
 
     .section-text-right {
-        padding: 12px 0px 0px 0px;
+        padding: 5px 0px 0px 0px;
     }
 
     .services-header {
@@ -168,9 +173,7 @@ h1 {
         width: 350px;
         height: 350px;
     }
-
 }
-
 
 @media only screen and (max-width: 450px) {
     .section-image-container {
@@ -178,7 +181,6 @@ h1 {
         height: 250px;
     }
 }
-
 
 @media only screen and (max-width: 320px) {
     .section-text-left {
@@ -192,6 +194,7 @@ h1 {
         font-weight: 400;
         text-decoration: underline;
         letter-spacing: 0.1rem;
+        padding: 9px 0px 0px 0px;
     }
 
     .section-image-container {
@@ -207,13 +210,12 @@ h1 {
         margin: 5px 0px 0px 0px;
         letter-spacing: 0.2rem;
     }
-
-
 }
 
 /* Rest */
 
 .portfolio-section {
+    margin-top: -7px;
     font-family: "Italiana", sans-serif;
     font-weight: 400;
     font-style: normal;
