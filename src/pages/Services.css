@@ -67,7 +67,7 @@
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .services-container {
         margin: 0px 0px 0px 0px;
     }
@@ -80,13 +80,11 @@
     
     .services-container .grid-row {
         width: 100%;
-        
         text-align: center;
 
     }
     
     .services-container .grid-item  {
-        
         height: 630px;
     }
     

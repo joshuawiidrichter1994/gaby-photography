@@ -31,7 +31,7 @@
     
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .portfolio-container {
         margin: 0px 0px 0px 0px;
         width: 100%;
