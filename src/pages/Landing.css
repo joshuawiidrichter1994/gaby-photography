@@ -156,11 +156,12 @@ h1 {
     }
 
     .section-text-left {
-        font-size: 25px;
+        font-size: 28px;
         letter-spacing: 0.1rem;
     }
     
     .section-text-right {
+        font-size: 14px;
         font-family: "Lato";
         font-weight: 400;
         text-decoration: underline;
