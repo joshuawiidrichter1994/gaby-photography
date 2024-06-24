@@ -171,7 +171,7 @@ h1 {
 
 }
 
-/* Mobile */
+
 @media only screen and (max-width: 450px) {
     .section-image-container {
         width: 250px;
@@ -193,6 +193,22 @@ h1 {
         text-decoration: underline;
         letter-spacing: 0.1rem;
     }
+
+    .section-image-container {
+        margin: 0 auto;
+        width: 220px;
+        height: 220px;
+        padding: 25px 0px 25px 0px;
+    }
+
+    .section-image-text {
+        font-size: 12px;
+        font-family: "Lato";
+        margin: 5px 0px 0px 0px;
+        letter-spacing: 0.2rem;
+    }
+
+
 }
 
 /* Rest */
@@ -234,6 +250,7 @@ h1 {
 }
 
 .section-images-container {
+    align-items: center;
     justify-content: space-between;
     margin: 0px 25px 0px 25px;
 }
