@@ -2,12 +2,6 @@ import React, { useState } from 'react';
 import './Landing.css';
 
 function Landing() {
-  const [isMobileNavVisible, setIsMobileNavVisible] = useState(false);
-
-  const toggleMobileNav = () => {
-    setIsMobileNavVisible(!isMobileNavVisible);
-  };
-
   return (
     <div>
       {/* MAIN */}
