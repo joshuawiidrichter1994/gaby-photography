@@ -105,6 +105,10 @@ h1 {
         padding: 9px 0px 0px 0px;
     }
 
+    .section-text-right:hover {
+        text-decoration: underline darkgrey;
+    }
+
     .services-header {
         padding: 0px 50px 25px 50px;
     }
