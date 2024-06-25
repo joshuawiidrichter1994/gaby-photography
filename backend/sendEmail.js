@@ -11,12 +11,24 @@ const transporter = nodemailer.createTransport(
   })
 );
 
+const allowedOrigins = ['https://gabyisabelle.com'];
+
 module.exports = async (req, res) => {
   console.log('Function invoked');
 
-  res.setHeader('Access-Control-Allow-Origin', 'https://gaby-photography.com');
-  res.setHeader('Access-Control-Allow-Methods', 'POST');
+  const origin = req.headers.origin;
+  if (allowedOrigins.includes(origin)) {
+    res.setHeader('Access-Control-Allow-Origin', origin);
+  } else {
+    res.setHeader('Access-Control-Allow-Origin', 'https://gabyisabelle.com');
+  }
+
+  res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+
+  if (req.method === 'OPTIONS') {
+    return res.status(204).send();
+  }
 
   if (req.method !== 'POST') {
     return res.status(405).send('Method Not Allowed');
