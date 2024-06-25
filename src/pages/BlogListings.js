@@ -23,7 +23,7 @@ function BlogListings() {
             </div>
           </div>
           <div className="blog-container">
-            <img className="blog-img" src="/img/works/39.JPG" />
+            <img className="blog-img" src="/img/blog/1.jpg" />
             <div className="blog-info">
               <p className="blog-heading">Learning Light</p>
               <p className="blog-description">

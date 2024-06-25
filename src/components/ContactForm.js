@@ -10,6 +10,8 @@ const ContactForm = () => {
     message: '',
   });
 
+  const [emailSent, setEmailSent] = useState(null); // State to track email sending status
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({
@@ -33,6 +35,7 @@ const ContactForm = () => {
       );
       if (response.ok) {
         console.log('Email sent successfully');
+        setEmailSent(true); // Set state to indicate success
         // Optionally, reset the form fields after successful submission
         setFormData({
           firstName: '',
@@ -43,10 +46,12 @@ const ContactForm = () => {
         });
       } else {
         console.error('Error sending email:', response.statusText);
+        setEmailSent(false); // Set state to indicate failure
         // Handle the error appropriately (e.g., show an error message to the user)
       }
     } catch (error) {
       console.error('Error sending email:', error.message);
+      setEmailSent(false); // Set state to indicate failure
       // Handle the error appropriately (e.g., show an error message to the user)
     }
   };
@@ -114,6 +119,12 @@ const ContactForm = () => {
           onChange={handleChange}
           required
         />
+      </div>
+      <div className="contact-form-feedback">
+        {emailSent === true && <span className="success">✓ Email Sent</span>}
+        {emailSent === false && (
+          <span className="error">✗ Error Sending Email</span>
+        )}
       </div>
       <button className="contact-form-submit-btn" type="submit">
         Submit
