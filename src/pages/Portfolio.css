@@ -27,8 +27,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
-    }   
-    
+    }    
 }
 
 @media only screen and (max-width: 767px) {
@@ -42,14 +41,12 @@
         margin: 0px;
         text-align: left;
         padding: 0px 0px 0px 10px;
-        
     }
 
     .portfolio-container .header-text {
         margin: 0px 0px 20px 0px;
     }
 
-    
     .portfolio-container .grid-container {
         width: 85%;
         margin-left: 4%;
@@ -71,5 +68,4 @@
         height: 100%;
         object-fit: cover;
     }   
-    
 }

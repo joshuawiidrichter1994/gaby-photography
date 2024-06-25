@@ -82,9 +82,11 @@
     .footer-top {
         height: 400px;
     }
+
     .footer-top-text-container {
         padding: 25px 25px 25px 25px;
     }
+    
     .footer-top-text {
         font-size: 40px;
     }

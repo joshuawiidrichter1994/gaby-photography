@@ -10,7 +10,7 @@ const ContactForm = () => {
     message: '',
   });
 
-  const [emailSent, setEmailSent] = useState(null); // State to track email sending status
+  const [emailSent, setEmailSent] = useState(null);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,8 +35,7 @@ const ContactForm = () => {
       );
       if (response.ok) {
         console.log('Email sent successfully');
-        setEmailSent(true); // Set state to indicate success
-        // Optionally, reset the form fields after successful submission
+        setEmailSent(true);
         setFormData({
           firstName: '',
           lastName: '',
@@ -46,13 +45,11 @@ const ContactForm = () => {
         });
       } else {
         console.error('Error sending email:', response.statusText);
-        setEmailSent(false); // Set state to indicate failure
-        // Handle the error appropriately (e.g., show an error message to the user)
+        setEmailSent(false);
       }
     } catch (error) {
       console.error('Error sending email:', error.message);
-      setEmailSent(false); // Set state to indicate failure
-      // Handle the error appropriately (e.g., show an error message to the user)
+      setEmailSent(false);
     }
   };
 

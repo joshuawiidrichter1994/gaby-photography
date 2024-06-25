@@ -3,7 +3,6 @@ import './Footer.css';
 function Footer() {
   return (
     <div>
-      {/* FOOTER */}
       <div className="footer-top">
         <div className="footer-top-text-container">
           <span className="footer-top-text">

@@ -33,7 +33,7 @@
         transition: opacity 0.3s;
       }
 
-      .scrolled header:after {
+    .scrolled header:after {
         opacity: 0;
     }
 

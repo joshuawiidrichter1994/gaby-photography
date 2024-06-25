@@ -77,11 +77,9 @@
         margin: 25px 0px 0px 0px;
     }
 
-    
     .services-container .grid-row {
         width: 100%;
         text-align: center;
-
     }
     
     .services-container .grid-item  {
@@ -106,14 +104,12 @@
     }
     
     .services-container .contact-section {
-        
         margin: 15px 15px 15px 15px;
     }
     
     .services-container .contact-section-left {
         text-align: left;
         margin: 0px 0px 25px 0px;;
-        
     }
     
     .services-container .contact-section-left-text {
@@ -125,11 +121,6 @@
     
     .services-container .contact-section-right {
         height: 580px;
-        
         text-align: left;
     }
 }
-
-
-
-
