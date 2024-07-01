@@ -29,18 +29,19 @@ const subscriberSchema = new mongoose.Schema({
 const Subscriber = mongoose.model('Subscriber', subscriberSchema);
 
 app.post('/subscribe', async (req, res) => {
-  const email = req.body.email;
-  const newSubscriber = new Subscriber({ email });
+  const { email } = req.body;
+
+  if (!email) {
+    return res.status(400).json({ error: 'Email is required' });
+  }
 
   try {
+    const newSubscriber = new Subscriber({ email });
     await newSubscriber.save();
     res.status(201).json({ message: 'Subscription successful!' });
   } catch (err) {
-    res
-      .status(400)
-      .json({
-        error: 'Subscription failed. Email might already be subscribed.',
-      });
+    console.error(err);
+    res.status(500).json({ error: 'Server error. Please try again.' });
   }
 });
 
