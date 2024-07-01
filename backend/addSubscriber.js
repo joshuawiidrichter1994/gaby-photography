@@ -1,5 +1,3 @@
-// /backend/addSubscriber.js
-
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -14,18 +12,15 @@ app.use(express.json());
 
 // MongoDB Connection
 const uri = process.env.MONGODB_URI;
+mongoose.connect(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
-mongoose
-  .connect(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log('MongoDB database connection established successfully');
-  })
-  .catch((error) => {
-    console.error('MongoDB connection error:', error.message);
-  });
+const connection = mongoose.connection;
+connection.once('open', () => {
+  console.log('MongoDB database connection established successfully');
+});
 
 // MongoDB Schema and Model
 const subscriberSchema = new mongoose.Schema({
@@ -47,7 +42,7 @@ app.post('/api/subscribe', async (req, res) => {
     await newSubscriber.save();
     res.status(201).json({ message: 'Subscription successful!' });
   } catch (err) {
-    console.error('Subscription error:', err.message);
+    console.error(err);
     res.status(500).json({ error: 'Server error. Please try again.' });
   }
 });
