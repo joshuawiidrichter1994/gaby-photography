@@ -4,12 +4,20 @@
     {
       "src": "backend/sendEmail.js",
       "use": "@vercel/node"
+    },
+    {
+      "src": "backend/addSubscriber.js",
+      "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/api/send-email",
       "dest": "backend/sendEmail.js"
+    },
+    {
+      "src": "/api/subscribe",
+      "dest": "backend/addSubscriber.js"
     }
   ]
 }
