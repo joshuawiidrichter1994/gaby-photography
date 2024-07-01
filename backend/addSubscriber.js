@@ -1,3 +1,5 @@
+// /backend/addSubscriber.js
+
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
@@ -14,6 +16,7 @@ mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+
 const connection = mongoose.connection;
 connection.once('open', () => {
   console.log('MongoDB database connection established successfully');
@@ -25,6 +28,7 @@ const subscriberSchema = new mongoose.Schema({
 
 const Subscriber = mongoose.model('Subscriber', subscriberSchema);
 
+// Handle POST requests to /subscribe
 app.post('/subscribe', async (req, res) => {
   const { email } = req.body;
 
@@ -40,6 +44,12 @@ app.post('/subscribe', async (req, res) => {
     console.error(err);
     res.status(500).json({ error: 'Server error. Please try again.' });
   }
+});
+
+// Optionally handle other HTTP methods or routes
+// Example: Handle GET request to /subscribe
+app.get('/subscribe', (req, res) => {
+  res.status(405).json({ error: 'Method Not Allowed' });
 });
 
 app.listen(port, () => {
