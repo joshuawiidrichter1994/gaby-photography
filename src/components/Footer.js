@@ -12,7 +12,7 @@ function Footer() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        'https://your-backend-url.vercel.app/subscribe',
+        'https://gaby-photography.vercel.app/api/add-subscriber',
         { email }
       );
       setMessage(response.data.message);
