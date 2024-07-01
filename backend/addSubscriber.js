@@ -8,9 +8,11 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5000;
 
+// Middleware
 app.use(cors());
 app.use(express.json());
 
+// MongoDB Connection
 const uri = process.env.MONGODB_URI;
 mongoose.connect(uri, {
   useNewUrlParser: true,
@@ -22,14 +24,15 @@ connection.once('open', () => {
   console.log('MongoDB database connection established successfully');
 });
 
+// MongoDB Schema and Model
 const subscriberSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true },
 });
 
 const Subscriber = mongoose.model('Subscriber', subscriberSchema);
 
-// Handle POST requests to /subscribe
-app.post('/subscribe', async (req, res) => {
+// Routes
+app.post('/api/subscribe', async (req, res) => {
   const { email } = req.body;
 
   if (!email) {
@@ -46,12 +49,12 @@ app.post('/subscribe', async (req, res) => {
   }
 });
 
-// Optionally handle other HTTP methods or routes
-// Example: Handle GET request to /subscribe
-app.get('/subscribe', (req, res) => {
+// Handle other HTTP methods or routes
+app.get('/api/subscribe', (req, res) => {
   res.status(405).json({ error: 'Method Not Allowed' });
 });
 
+// Start the server
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
 });
