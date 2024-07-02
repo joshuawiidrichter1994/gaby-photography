@@ -12,15 +12,19 @@ app.use(express.json());
 
 // MongoDB Connection
 const uri = process.env.MONGODB_URI;
-mongoose.connect(uri, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+console.log(`Connecting to MongoDB with URI: ${uri}`);
 
-const connection = mongoose.connection;
-connection.once('open', () => {
-  console.log('MongoDB database connection established successfully');
-});
+mongoose
+  .connect(uri, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log('MongoDB database connection established successfully');
+  })
+  .catch((err) => {
+    console.error('Error connecting to MongoDB:', err.message);
+  });
 
 // MongoDB Schema and Model
 const subscriberSchema = new mongoose.Schema({
@@ -32,17 +36,20 @@ const Subscriber = mongoose.model('Subscriber', subscriberSchema);
 // Routes
 app.post('/api/subscribe', async (req, res) => {
   const { email } = req.body;
+  console.log(`Received subscription request with email: ${email}`);
 
   if (!email) {
+    console.log('Email is required');
     return res.status(400).json({ error: 'Email is required' });
   }
 
   try {
     const newSubscriber = new Subscriber({ email });
     await newSubscriber.save();
+    console.log('Subscription successful');
     res.status(201).json({ message: 'Subscription successful!' });
   } catch (err) {
-    console.error(err);
+    console.error('Error saving subscriber:', err.message);
     res.status(500).json({ error: 'Server error. Please try again.' });
   }
 });
