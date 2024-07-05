@@ -79,6 +79,14 @@ function Footer() {
               <a href="./about">ABOUT</a>
             </span>
           </div>
+          <div classNam="socials-container">
+            <a href="">
+              <img className="socials-logo" src="/img/linkedin.png" />
+            </a>
+            <a href="">
+              <img className="socials-logo" src="/img/instagram.png" />
+            </a>
+          </div>
         </div>
       </footer>
     </div>

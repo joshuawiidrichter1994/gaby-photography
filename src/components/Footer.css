@@ -196,3 +196,13 @@ footer {
     border-bottom: solid white;
     border-width: 1px;
 }
+
+.socials-container {
+    margin-top: 50px;
+}
+
+.socials-logo {
+    height: 50px;
+    width: auto;
+    padding: 50px 25px 0px 25px;
+}
