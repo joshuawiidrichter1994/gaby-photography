@@ -80,10 +80,13 @@ function Footer() {
             </span>
           </div>
           <div className="socials-container-desktop">
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/gaby-isabelle-58405b18b/"
+              target="_blank"
+            >
               <img className="socials-logo" src="/img/linkedin.png" />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/gabyisabellee/" target="_blank">
               <img className="socials-logo" src="/img/instagram.png" />
             </a>
           </div>
