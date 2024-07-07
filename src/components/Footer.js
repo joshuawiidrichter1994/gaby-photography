@@ -55,8 +55,8 @@ function Footer() {
             <button className="subscribe-button" type="submit">
               SIGN UP
             </button>
+            {message && <div className="subscribe-message">{message}</div>}
           </form>
-          {message && <div className="subscribe-message">{message}</div>}
         </div>
         <div className="footer-nav">
           <div className="footer-nav-item">

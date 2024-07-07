@@ -47,10 +47,10 @@ app.post('/api/subscribe', async (req, res) => {
     const newSubscriber = new Subscriber({ email });
     await newSubscriber.save();
     console.log('Subscription successful');
-    res.status(201).json({ message: 'Subscription successful!' });
+    res.status(201).json({ message: '✓' });
   } catch (err) {
     console.error('Error saving subscriber:', err.message);
-    res.status(500).json({ error: 'Server error. Please try again.' });
+    res.status(500).json({ error: '✗' });
   }
 });
 

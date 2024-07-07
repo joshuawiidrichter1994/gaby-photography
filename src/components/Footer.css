@@ -193,7 +193,9 @@ footer {
 }
 
 .subscribe-message {
-    margin: 0px 0px 0px 25px;
+    margin: 0px 0px 0px 0px;
+    padding-top: 5px;
+    font-size: 10px;
 }
 
 .subscribe-button:hover {
