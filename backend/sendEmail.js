@@ -17,6 +17,8 @@ module.exports = async (req, res) => {
   console.log('Function invoked');
 
   const origin = req.headers.origin;
+  console.log('Request origin:', origin);
+
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
   } else {
@@ -27,6 +29,9 @@ module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') {
+    res.setHeader('Access-Control-Allow-Origin', origin || '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
     return res.status(204).send();
   }
 
@@ -37,6 +42,10 @@ module.exports = async (req, res) => {
   console.log('Received request:', req.body);
 
   const { firstName, lastName, email, phone, message } = req.body;
+
+  if (!firstName || !lastName || !email || !phone || !message) {
+    return res.status(400).send('Bad Request: Missing required fields');
+  }
 
   const mailOptions = {
     from: 'joshuawiidrichter@gmail.com',
