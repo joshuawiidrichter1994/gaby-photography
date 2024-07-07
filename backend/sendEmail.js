@@ -17,7 +17,9 @@ module.exports = async (req, res) => {
   console.log('Function invoked');
 
   const origin = req.headers.origin;
+  const userAgent = req.headers['user-agent'];
   console.log('Request origin:', origin);
+  console.log('User-Agent:', userAgent);
 
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
@@ -44,6 +46,7 @@ module.exports = async (req, res) => {
   const { firstName, lastName, email, phone, message } = req.body;
 
   if (!firstName || !lastName || !email || !phone || !message) {
+    console.log('Bad request:', req.body);
     return res.status(400).send('Bad Request: Missing required fields');
   }
 
@@ -66,6 +69,6 @@ module.exports = async (req, res) => {
     res.status(200).send('Email sent successfully');
   } catch (error) {
     console.error('Error occurred while sending email:', error);
-    res.status(500).send('Error sending email');
+    res.status(500).send(`Error sending email: ${error.message}`);
   }
 };
