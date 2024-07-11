@@ -24,15 +24,15 @@ function Landing() {
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/2.JPG" />
+              <img className="section-image" src="/img/home/2.PNG" />
               <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/3.jpg" />
+              <img className="section-image" src="/img/home/3.PNG" />
               <p className="section-image-text">Brands</p>
             </div>
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/4.jpg" />
+              <img className="section-image" src="/img/home/4.PNG" />
               <p className="section-image-text">Portraits</p>
             </div>
           </div>
@@ -47,10 +47,10 @@ function Landing() {
           </div>
           <div className="services-images">
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/5.JPG" />
+              <img className="service-image" src="/img/home/5.PNG" />
             </div>
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/6.JPG" />
+              <img className="service-image" src="/img/home/6.PNG" />
             </div>
           </div>
         </div>
@@ -65,19 +65,19 @@ function Landing() {
           <div className="section-images-container">
             <div className="section-image-container">
               <a href="./blog">
-                <img className="section-image" src="/img/home/7.jpg" />
+                <img className="section-image" src="/img/home/7.PNG" />
                 <p className="section-image-text">Photographing Pairs</p>
               </a>
             </div>
             <div className="section-image-container">
               <a href="./blog">
-                <img className="section-image" src="/img/home/8.jpg" />
+                <img className="section-image" src="/img/home/8.PNG" />
                 <p className="section-image-text">Learning Light</p>
               </a>
             </div>
             <div className="section-image-container">
               <a href="./blog">
-                <img className="section-image" src="/img/home/9.JPG" />
+                <img className="section-image" src="/img/home/9.PNG" />
                 <p className="section-image-text">Environmental Portraiture</p>
               </a>
             </div>

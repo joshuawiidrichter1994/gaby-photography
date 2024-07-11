@@ -21,7 +21,6 @@ module.exports = async (req, res) => {
   console.log('Request origin:', origin);
   console.log('User-Agent:', userAgent);
 
-  // Set CORS headers for all types of requests
   if (allowedOrigins.includes(origin)) {
     res.setHeader('Access-Control-Allow-Origin', origin);
   } else {
@@ -30,7 +29,6 @@ module.exports = async (req, res) => {
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
-  // Handle OPTIONS preflight request
   if (req.method === 'OPTIONS') {
     res.setHeader(
       'Access-Control-Allow-Origin',
