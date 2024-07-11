@@ -10,7 +10,7 @@ function BlogListings() {
       <div className="blog-grid">
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img className="blog-img" src="/img/blog/blog-1.jpg" />
+            <img className="blog-img" src="/img/blog/2.PNG" />
             <div className="blog-info">
               <p className="blog-heading">Photographing Pairs</p>
               <p className="blog-description">
@@ -23,7 +23,7 @@ function BlogListings() {
             </div>
           </div>
           <div className="blog-container">
-            <img className="blog-img" src="/img/blog/1.jpg" />
+            <img className="blog-img" src="/img/blog/1.PNG" />
             <div className="blog-info">
               <p className="blog-heading">Learning Light</p>
               <p className="blog-description">
@@ -38,7 +38,7 @@ function BlogListings() {
         </div>
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img className="blog-img" src="/img/home/9.JPG" />
+            <img className="blog-img" src="/img/home/9.PNG" />
             <div className="blog-info">
               <p className="blog-heading">Styling Your Subject</p>
               <p className="blog-description">
