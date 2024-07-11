@@ -38,7 +38,7 @@ function BlogListings() {
         </div>
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img className="blog-img" src="/img/home/9.PNG" />
+            <img className="blog-img" src="/img/home/9.png" />
             <div className="blog-info">
               <p className="blog-heading">Styling Your Subject</p>
               <p className="blog-description">
