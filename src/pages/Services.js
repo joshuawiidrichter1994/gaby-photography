@@ -15,7 +15,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/services/portraits.PNG"
+                  src="/img/services/portraits.png"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Portraits</span>
@@ -25,7 +25,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/services/brands.PNG"
+                  src="/img/services/brands.png"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Brands</span>
@@ -35,7 +35,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/services/events.PNG"
+                  src="/img/services/events.png"
                 />
                 <div id="grid-item-text" className="grid-item-text">
                   <span className="grid-item-text-header">Events</span>
