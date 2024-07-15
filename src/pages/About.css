@@ -49,6 +49,13 @@
     
     .about-container .contact-left {
         width: 50%;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .about-container .contact-left-text {
+        font-family: 'Italiana';
+        font-size: 85px;
+        margin: 0px 0px 0px 25px;
     }
     
     .about-container .contact-right {
@@ -56,7 +63,7 @@
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .about-container {
         margin: 100px 0px 0px 0px;
     }
@@ -83,6 +90,12 @@
         width: 90%;
         object-fit: cover;
     }
+
+    .about-container .about-text {
+        padding: 0px 20px;
+        margin: 25px 0px 25px 0px;
+        letter-spacing: 0rem;
+    }
     
     .about-container .contact-container {
         margin: 10px 0px 10px 0px;
@@ -90,7 +103,9 @@
     }
 
     .about-container .contact-left-text {
+        font-size: 55px;
+        font-family: 'Italiana';
         margin: 0px;
-        padding: 15px 0px 0px 15px;
+        padding: 15px 0px 0px 5px;
     }
 }
