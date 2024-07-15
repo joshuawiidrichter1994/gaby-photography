@@ -10,9 +10,9 @@ function BlogListings() {
       <div className="blog-grid">
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img className="blog-img" src="/img/blog/2.png" />
+            <img className="blog-img" src="/img/blog/BlogTravel1/1.jpg" />
             <div className="blog-info">
-              <p className="blog-heading">Photographing Pairs</p>
+              <p className="blog-heading">Experiencing Mauritius</p>
               <p className="blog-description">
                 Tips and techniques for taking stunning photographs of couples
                 and pairs.

@@ -1,5 +1,5 @@
 .blog-container {
-    padding: 0px 50px;
+    padding: 0px 150px;
 }
 
 .blog-container .header-container {
@@ -14,23 +14,38 @@
 
 .blog-container .sub-header {
     font-family: 'Italiana';
-
+    padding: 0px 0px 20px 0px;
 }
 
 .blog-container .top-section-text {
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 40px 0px;
+    line-height: 2.3rem;
 }
+
+.blog-container .middle-section-text {
+    margin: 0px 0px 40px 0px;
+    line-height: 2.3rem;
+}
+
+.blog-container .end-section-text {
+    margin: 0px;
+    line-height: 2.3rem;
+}
+
 
 .blog-container .top-section-image {
     width: 100%;
     height: auto;
+    margin: 0px 0px 25px 0px;
 }
 
 .blog-container .middle-section-image {
     width: 100%;
     height: auto;
+    margin: 0px 0px 25px 0px;
 }
 
 .blog-container .learn-more-text {
     font-style: italic;
+    padding: 0px 0px 25px 0px;
 }

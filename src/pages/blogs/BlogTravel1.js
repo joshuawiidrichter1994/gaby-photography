@@ -72,8 +72,10 @@ function BlogTravel1() {
           className="middle-section-image"
           src="/img/blog/BlogTravel1/5.jpg"
         />
+      </section>
+      <section className="end-section-container">
         <h2 className="sub-header">Immersing in Mauritius' Beauty</h2>
-        <p className="middle-section-text">
+        <p className="end-section-text">
           From the scenic views to the intricate decor, the elegant
           architecture, and the exquisite cuisine, the entire experience was a
           work of art. It was creative, moving, and inspiring, constantly
