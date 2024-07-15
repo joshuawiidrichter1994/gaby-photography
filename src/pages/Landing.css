@@ -60,22 +60,50 @@ ul {
 
     .header-text {
         font-size: 55px;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .landing-container .sub-header {
+        font-family: 'Italiana';
+        font-style: italic;
+        font-size: 12px;
+        letter-spacing: 0.1rem;
     }
 
     .intro {
         width: 100%;
+    }
+
+    .intro-text-container {
+        margin: 0px 0px 35px 0px;
     }
 }
 
 /* Mobile */
 @media only screen and (max-width: 320px) {
     .header-text {
+        margin: 0px;
         font-size: 40px;
+    }
+
+    .landing-container .sub-header {
+        font-family: 'Italiana';
+        font-style: italic;
+        font-size: 12px;
+        letter-spacing: 0.1rem;
+        
+    }
+
+    
+    .intro-text-container {
+        margin: 0px 0px 35px 0px;
     }
 }
 
 
 /* Rest */
+
+
 
 main {
     text-align: center;
