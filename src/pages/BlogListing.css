@@ -8,7 +8,11 @@
 
     .blogs-container .header-container {
         padding: 50px 0px 0px 0px;
-        margin: 0px 0px 50px 75px;
+        margin: 125px 0px 25px 0px;
+    }
+
+    .blogs-container .header-text {
+        margin: 0px 0px 20px 0px;
     }
 
     .blogs-container .blog-grid-row {
@@ -24,10 +28,6 @@
 
     .blogs-container {
         padding: 0px 25px 0px 25px;
-    }
-    
-    .blogs-container .header-container {
-        margin: 125px 0px 0px 0px;
     }
     
     .blogs-container .blog-img {
@@ -56,6 +56,10 @@
     
     .blogs-container .header-container {
         margin: 100px 0px 0px 0px;
+    }
+
+    .blogs-container .header-text {
+        margin: 0px 0px 15px 0px;
     }
     
     .blogs-container .blog-container {
