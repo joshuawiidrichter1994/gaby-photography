@@ -17,7 +17,12 @@ function BlogTravel1() {
           the stunning coastline. The breathtaking views and serene atmosphere
           rejuvenated me every time I stepped outside.
         </p>
-        <img className="top-section-image" src="/img/blog/BlogTravel1/2.jpg" />
+        <div className="image-container">
+          <img
+            className="top-section-image"
+            src="/img/blog/BlogTravel1/2.jpg"
+          />
+        </div>
       </section>
       <section className="middle-section-container">
         <h2 className="sub-header">
@@ -35,10 +40,12 @@ function BlogTravel1() {
           white buildings, lush gardens with tropical trees, and the endless
           Mauritian coastline, I found myself constantly in awe.
         </p>
-        <img
-          className="middle-section-image"
-          src="/img/blog/BlogTravel1/3.jpg"
-        />
+        <div className="image-container">
+          <img
+            className="middle-section-image"
+            src="/img/blog/BlogTravel1/3.jpg"
+          />
+        </div>
         <h2 className="sub-header">
           Luxury Meets Warmth: The Essence of Serenity
         </h2>
@@ -53,10 +60,13 @@ function BlogTravel1() {
           Despite the development, nothing feels congested or cluttered;
           everything is perfectly placed.
         </p>
-        <img
-          className="middle-section-image"
-          src="/img/blog/BlogTravel1/4.jpg"
-        />
+        <div className="image-container">
+          <img
+            className="middle-section-image"
+            src="/img/blog/BlogTravel1/4.jpg"
+          />
+        </div>
+
         <h2 className="sub-header">
           Taste & Leisure: The Perfect Blend of Activities
         </h2>
@@ -68,10 +78,12 @@ function BlogTravel1() {
           seamlessly connecting as a brand through their marketing, interiors,
           and, in the case of the restaurants, the food.
         </p>
-        <img
-          className="middle-section-image"
-          src="/img/blog/BlogTravel1/5.jpg"
-        />
+        <div className="image-container">
+          <img
+            className="middle-section-image"
+            src="/img/blog/BlogTravel1/5.jpg"
+          />
+        </div>
       </section>
       <section className="end-section-container">
         <h2 className="sub-header">Immersing in Mauritius' Beauty</h2>
