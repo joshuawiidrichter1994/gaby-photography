@@ -122,6 +122,9 @@ function Portfolio() {
         <div className="portfolio-container">
           <div className="header-container">
             <h1 className="header-text">Works</h1>
+            <span className="sub-header-text">
+              Fine art portfolio / luxury hotel photography examples
+            </span>
           </div>
           <div className="grid-container">
             {createRows(imageList.slice(0, visibleCount))}

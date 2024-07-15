@@ -1,15 +1,19 @@
+/* DESKTOP */
+
 @media only screen and (min-width: 768px) {
     .portfolio-container {
         margin: 150px 0px 0px 0px;
     }
 
     .portfolio-container .header-container {
+        text-align: left;
         padding: 50px 0px 0px 0px;
-        margin: 0px 0px 0px 75px;
+        margin: 0px 0px 35px 25px;
     }
 
-    .portfolio-container .header-container {
-        display: flex;
+    .portfolio-container .sub-header-text {
+        font-size: 18px;
+        padding: 0px 0px 0px 25px;
     }
     
     .portfolio-container .grid-row {
@@ -30,6 +34,8 @@
     }    
 }
 
+/* MOBILE */
+
 @media only screen and (max-width: 767px) {
     .portfolio-container {
         margin: 0px 0px 0px 0px;
@@ -38,13 +44,19 @@
     }
 
     .portfolio-container .header-container {
-        margin: 0px;
+        margin: 0px 0px 15px 0px;
         text-align: left;
         padding: 0px 0px 0px 10px;
     }
 
     .portfolio-container .header-text {
         margin: 0px 0px 20px 0px;
+    }
+
+    .portfolio-container .sub-header-text {
+        display: block;
+        font-size: 16px;
+        padding: 0px 0px 0px 25px;
     }
 
     .portfolio-container .grid-container {
