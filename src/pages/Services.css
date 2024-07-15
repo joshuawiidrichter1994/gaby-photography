@@ -34,13 +34,13 @@
     }
 
     .services-container .grid-item-portraits  {
+        width: 30%;
         height: 880px;
-        margin: 0px;
     }
 
     .services-container .grid-item-travel  {
+        width: 30%;
         height: 880px;
-        margin: 0px;
     }
     
     .services-container .grid-item-image {
