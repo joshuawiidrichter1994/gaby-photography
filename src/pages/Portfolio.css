@@ -7,13 +7,19 @@
 
     .portfolio-container .header-container {
         text-align: left;
-        padding: 50px 0px 0px 0px;
+        padding: 15px 0px 0px 0px;
         margin: 0px 0px 35px 25px;
+    }
+
+    .portfolio-container .header-text {
+        margin-bottom: 25px;
     }
 
     .portfolio-container .sub-header-text {
         font-size: 18px;
         padding: 0px 0px 0px 25px;
+        font-family: 'Italiana';
+        font-size: 25px;
     }
     
     .portfolio-container .grid-row {

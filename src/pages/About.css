@@ -1,3 +1,7 @@
+.about-link {
+    text-decoration: underline gray;
+}
+
 @media only screen and (min-width: 768px) {
     .about-container {
         margin: 150px 0px 0px 0px;
@@ -29,6 +33,12 @@
         height: auto;
         width: 90%;
         object-fit: cover;
+    }
+
+    .about-container .about-text {
+        padding: 0px 90px;
+        margin: 25px 0px 25px 0px;
+        letter-spacing: 0.1rem;
     }
     
     .about-container .contact-container {

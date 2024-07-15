@@ -3,12 +3,16 @@ import './Landing.css';
 
 function Landing() {
   return (
-    <div>
+    <div className="landing-container">
       {/* MAIN */}
       <main>
         <div className="intro">
-          <div>
-            <h1>Gaby Isabelle Photography</h1>
+          <div className="intro-text-container">
+            <h1 className="header-text">Gaby Isabelle Photography</h1>
+            <span className="sub-header">
+              Fine art photography services with a niche in portraits,
+              intentional brands, and luxury hotels.
+            </span>
           </div>
           <div className="intro-image-container">
             <img className="intro-img" src="/img/home/1.JPG" />

@@ -16,7 +16,8 @@
     }
 
     .services-container .sub-header-text {
-        font-size: 18px;
+        font-family: 'Italiana';
+        font-size: 25px;
         margin-left: 20px;
         display: block;
     }
