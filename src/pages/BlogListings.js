@@ -14,8 +14,8 @@ function BlogListings() {
             <div className="blog-info">
               <p className="blog-heading">Experiencing Mauritius</p>
               <p className="blog-description">
-                Tips and techniques for taking stunning photographs of couples
-                and pairs.
+                Join me as I reminisce on my stay at Heritage le Telfair luxury
+                resort, exploring the best of the Mauritian coastline.
               </p>
               <a className="read-more-text" href="./blog-travel-mauritius">
                 read more...
