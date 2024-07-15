@@ -17,7 +17,7 @@ function Services() {
           </div>
           <div className="grid-container">
             <div className="grid-row">
-              <div className="grid-item-portraits">
+              <div className="grid-item">
                 <img
                   className="grid-item-image"
                   src="/img/services/portraits.jpg"

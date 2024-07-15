@@ -105,9 +105,10 @@
 
     .services-container .sub-header-text {
         display: block;
+        font-family: 'Italiana';
         padding: 0px 15px 0px 15px;
         margin: 0px 0px 15px 0px;
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .services-container .grid-row {
@@ -116,12 +117,7 @@
     }
     
     .services-container .grid-item  {
-        height: 650px;
-        margin: 0px;
-    }
-
-    .services-container .grid-item-portraits  {
-        height: 575px;
+        height: 625px;
         margin: 0px;
     }
 

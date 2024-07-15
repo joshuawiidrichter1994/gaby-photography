@@ -61,7 +61,8 @@
 
     .portfolio-container .sub-header-text {
         display: block;
-        font-size: 16px;
+        font-family: 'Italiana';
+        font-size: 18px;
         padding: 0px 0px 0px 25px;
     }
 
