@@ -12,6 +12,11 @@
     font-size: 50px;
 }
 
+.blog-container .sub-header {
+    font-family: 'Italiana';
+
+}
+
 .blog-container .top-section-text {
     margin: 0px 0px 25px 0px;
 }
@@ -19,4 +24,13 @@
 .blog-container .top-section-image {
     width: 100%;
     height: auto;
+}
+
+.blog-container .middle-section-image {
+    width: 100%;
+    height: auto;
+}
+
+.blog-container .learn-more-text {
+    font-style: italic;
 }
