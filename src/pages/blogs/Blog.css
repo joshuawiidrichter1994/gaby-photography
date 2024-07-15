@@ -54,3 +54,7 @@
     width: 100%;
     text-align: center;
 }
+
+.blog-container .blog-link {
+    text-decoration: underline gray;
+}
