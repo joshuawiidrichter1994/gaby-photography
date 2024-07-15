@@ -9,13 +9,18 @@ function Services() {
         <div className="services-container">
           <div className="header-container">
             <h1 className="header-text">Services</h1>
+            <span className="sub-header-text">
+              Transforming your vision into captivating visuals: from candid
+              portraits that reflect authenticity, to strategic brand
+              partnerships with intentional businesses.
+            </span>
           </div>
           <div className="grid-container">
             <div className="grid-row">
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/services/portraits.png"
+                  src="/img/services/portraits.jpg"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Portraits</span>
@@ -25,7 +30,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/services/brands.png"
+                  src="/img/services/brands.jpg"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Brands</span>
