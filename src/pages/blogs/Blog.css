@@ -1,0 +1,11 @@
+.blog-container {
+    padding: 0px 15px;
+}
+
+.blog-container .header-container {
+    margin: 175px 0px 0px 0px;
+}
+
+.blog-container .header-text {
+    font-size: 50px;
+}

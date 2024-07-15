@@ -6,6 +6,8 @@ import Services from './pages/Services';
 import About from './pages/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
+// BLOGS
+import BlogTravel1 from './pages/blogs/BlogTravel1';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -21,6 +23,12 @@ function App() {
           <Route exact path="/services" element={<Services />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/about#contact-section" element={<About />} />
+          {/* Individual blogs */}
+          {/* <Route
+            exact
+            path="/blog/blog-travel-mauritius"
+            element={<BlogTravel1 />}
+          /> */}
         </Routes>
         <Footer />
       </div>

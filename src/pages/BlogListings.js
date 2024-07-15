@@ -17,7 +17,7 @@ function BlogListings() {
                 Tips and techniques for taking stunning photographs of couples
                 and pairs.
               </p>
-              <a className="read-more-text" href="./blog">
+              <a className="read-more-text" href="./blog/blog-travel-mauritius">
                 read more...
               </a>
             </div>
