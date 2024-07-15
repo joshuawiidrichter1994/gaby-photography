@@ -32,6 +32,16 @@
         width: 30%;
         height: 880px;
     }
+
+    .services-container .grid-item-portraits  {
+        height: 880px;
+        margin: 0px;
+    }
+
+    .services-container .grid-item-travel  {
+        height: 880px;
+        margin: 0px;
+    }
     
     .services-container .grid-item-image {
         height: 100%;
@@ -106,7 +116,17 @@
     
     .services-container .grid-item  {
         height: 650px;
-        margin: 0px 0px 0px 0px;
+        margin: 0px;
+    }
+
+    .services-container .grid-item-portraits  {
+        height: 575px;
+        margin: 0px;
+    }
+
+    .services-container .grid-item-travel  {
+        height: 635px;
+        margin: 0px;
     }
     
     .services-container .grid-item-image {

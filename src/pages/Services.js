@@ -17,7 +17,7 @@ function Services() {
           </div>
           <div className="grid-container">
             <div className="grid-row">
-              <div className="grid-item">
+              <div className="grid-item-portraits">
                 <img
                   className="grid-item-image"
                   src="/img/services/portraits.jpg"
@@ -37,7 +37,7 @@ function Services() {
                   <p>Partnerships with intentional businesses.</p>
                 </div>
               </div>
-              <div className="grid-item">
+              <div className="grid-item-travel">
                 <img
                   className="grid-item-image"
                   src="/img/services/events.jpg"
