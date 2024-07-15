@@ -10,7 +10,15 @@ function BlogTravel1() {
           Le Telfair
         </h1>
       </div>
-      <section></section>
+      <section className="top-section-container">
+        <p className="top-section-text">
+          I had such an amazing time in Mauritius. I never imagined that I would
+          find myself at Heritage Le Telfair, a five-star wellness resort along
+          the stunning coastline. The breathtaking views and serene atmosphere
+          rejuvenated me every time I stepped outside.
+        </p>
+        <img className="top-section-image" src="/img/blog/BlogTravel1/2.jpg" />
+      </section>
       <section></section>
     </div>
   );

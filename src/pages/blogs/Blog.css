@@ -1,11 +1,22 @@
 .blog-container {
-    padding: 0px 15px;
+    padding: 0px 50px;
 }
 
 .blog-container .header-container {
-    margin: 175px 0px 0px 0px;
+    margin: 200px 0px 0px 0px;
+    padding: 0px;
 }
 
 .blog-container .header-text {
+    padding: 0px;
     font-size: 50px;
+}
+
+.blog-container .top-section-text {
+    margin: 0px 0px 25px 0px;
+}
+
+.blog-container .top-section-image {
+    width: 100%;
+    height: auto;
 }
