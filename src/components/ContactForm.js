@@ -128,7 +128,7 @@ const ContactForm = () => {
       </button>
       <br />
       <span className="alternate-message">
-        Alternatively, email gaby@isabelle.co.za directly
+        * Alternatively, email gaby@isabelle.co.za directly.
       </span>
     </form>
   );

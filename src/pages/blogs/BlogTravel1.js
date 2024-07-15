@@ -41,8 +41,8 @@ function BlogTravel1() {
           style and decor. She described it as open, fresh, and breezy, with
           “spaces within spaces.” I loved that phrase; it perfectly encapsulates
           the hotel’s design philosophy. The architecture made the walls feel
-          alive, turning the hotel into a piece of art. The white,
-          French-inspired architecture pays homage to the{' '}
+          alive, turning the hotel into a piece of art. <br />
+          <br /> The white, French-inspired architecture pays homage to the{' '}
           <a
             className="blog-link"
             href="https://heritageresorts.mu/hotels-mauritius/le-telfair"
@@ -72,7 +72,9 @@ function BlogTravel1() {
           ></a>
           Heritage Le Telfair was its ability to be both elegant and homely. The
           staff were genuinely kind, and the decor and architecture were refined
-          without being over-the-top, complementing the natural scenery.{' '}
+          without being over-the-top, complementing the natural scenery.
+          <br />
+          <br />{' '}
           <a
             className="blog-link"
             href="https://heritageresorts.mu/hotels-mauritius/le-telfair"
@@ -114,7 +116,8 @@ function BlogTravel1() {
             activities
           </a>
           , including golf, museum tours, workshops, and jazz evenings, added
-          depth to the overall experience. I appreciated how each resort and{' '}
+          depth to the overall experience. <br />
+          <br />I appreciated how each resort and{' '}
           <a
             className="blog-link"
             href="https://heritageresorts.mu/hotels-mauritius/le-telfair/restaurants-bars"
@@ -139,7 +142,9 @@ function BlogTravel1() {
           From the scenic views to the intricate decor, the elegant
           architecture, and the exquisite cuisine, the entire experience was a
           work of art. It was creative, moving, and inspiring, constantly
-          blowing me away. This journey to Mauritius and{' '}
+          blowing me away. <br />
+          <br />
+          This journey to Mauritius and{' '}
           <a
             className="blog-link"
             href="https://heritageresorts.mu/hotels-mauritius/le-telfair"

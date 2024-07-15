@@ -51,10 +51,10 @@ function Landing() {
           </div>
           <div className="services-images">
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/5.jpg" />
+              <img className="service-image" src="/img/home/5.JPG" />
             </div>
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/6.jpg" />
+              <img className="service-image" src="/img/home/6.JPG" />
             </div>
           </div>
         </div>
@@ -68,9 +68,12 @@ function Landing() {
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
-              <a href="./blog">
-                <img className="section-image" src="/img/home/7.png" />
-                <p className="section-image-text">Photographing Pairs</p>
+              <a href="./blog-travel-mauritius">
+                <img
+                  className="section-image"
+                  src="/img/blog/BlogTravel1/1.jpg"
+                />
+                <p className="section-image-text">Experiencing Mauritius</p>
               </a>
             </div>
             <div className="section-image-container">

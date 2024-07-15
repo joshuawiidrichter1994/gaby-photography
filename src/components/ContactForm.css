@@ -51,6 +51,7 @@
 
     .alternate-message {
         font-size: 14px;
+        font-style: italic;
     }
 }
 
@@ -111,5 +112,6 @@
 
     .alternate-message {
         font-size: 12px;
+        font-style: italic;
     }
 }
