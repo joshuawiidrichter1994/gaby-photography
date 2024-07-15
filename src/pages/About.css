@@ -95,10 +95,11 @@
         padding: 0px 20px;
         margin: 25px 0px 25px 0px;
         letter-spacing: 0rem;
+        font-size: 13px
     }
     
     .about-container .contact-container {
-        margin: 10px 0px 10px 0px;
+        margin: 10px 0px 20px 0px;
         padding: 0px 15px 0px 15px;
     }
 
