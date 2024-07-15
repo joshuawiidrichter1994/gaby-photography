@@ -24,11 +24,11 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/about#contact-section" element={<About />} />
           {/* Individual blogs */}
-          {/* <Route
+          <Route
             exact
-            path="/blog/blog-travel-mauritius"
+            path="/blog-travel-mauritius"
             element={<BlogTravel1 />}
-          /> */}
+          />
         </Routes>
         <Footer />
       </div>
