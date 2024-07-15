@@ -38,13 +38,17 @@
     }
     
     .contact-form-submit-btn {
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 15px 0px;
         background-color: rgb(109, 101, 89);
         border: none;
         color: white;
         height: 35px;
         width: 100px;
         font-family: 'Poppins';
+    }
+
+    .alternate-message {
+        font-size: 14px;
     }
 }
 
@@ -91,12 +95,17 @@
     }
     
     .contact-form-submit-btn {
-        margin: 20px 0px 0px 0px;
+        margin: 20px 0px 15px 0px;
         background-color: rgb(109, 101, 89);
         border: none;
         color: white;
         height: 35px;
         width: 100px;
         font-family: 'Poppins';
+        margin-bottom: 10px;
+    }
+
+    .alternate-message {
+        font-size: 12px;
     }
 }

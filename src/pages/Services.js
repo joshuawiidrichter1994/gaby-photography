@@ -35,11 +35,11 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="/img/services/events.png"
+                  src="/img/services/events.jpg"
                 />
                 <div id="grid-item-text" className="grid-item-text">
-                  <span className="grid-item-text-header">Events</span>
-                  <p>Creating memories, capturing moments in time.</p>
+                  <span className="grid-item-text-header">Travel</span>
+                  <p>The gift of perspective.</p>
                 </div>
               </div>
             </div>

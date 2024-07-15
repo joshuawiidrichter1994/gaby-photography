@@ -8,7 +8,7 @@ function About() {
       <div className="header-container">
         <h1 className="header-text">About</h1>
         <span className="sub-heading-text">
-          Self-taught portrait photographer seeking to capture the identities,
+          Self-taught photographer seeking to capture the identities,
           expressions, and auras of people.
         </span>
       </div>

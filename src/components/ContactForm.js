@@ -126,6 +126,10 @@ const ContactForm = () => {
       <button className="contact-form-submit-btn" type="submit">
         Submit
       </button>
+      <br />
+      <span className="alternate-message">
+        Alternatively, email gaby@isabelle.co.za directly
+      </span>
     </form>
   );
 };
