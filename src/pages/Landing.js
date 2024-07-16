@@ -69,10 +69,7 @@ function Landing() {
           <div className="section-images-container">
             <div className="section-image-container">
               <a href="./blog-travel-mauritius">
-                <img
-                  className="section-image"
-                  src="/img/blog//mauritius-1.jpg"
-                />
+                <img className="section-image" src="/img/blog/3.jpg" />
                 <p className="section-image-text">Experiencing Mauritius</p>
               </a>
             </div>

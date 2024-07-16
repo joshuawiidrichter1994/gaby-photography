@@ -18,7 +18,7 @@ function BlogTravel1() {
           rejuvenated me every time I stepped outside.
         </p>
         <div className="image-container">
-          <img className="top-section-image" src="/img/blog/mauritius2.JPG" />
+          <img className="top-section-image" src="/img/blog/4.JPG" />
         </div>
       </section>
       <section className="middle-section-container">
@@ -52,10 +52,7 @@ function BlogTravel1() {
           constantly in awe.
         </p>
         <div className="image-container">
-          <img
-            className="middle-section-image"
-            src="/img/blog/mauritius3.JPG"
-          />
+          <img className="middle-section-image" src="/img/blog/5.JPG" />
         </div>
         <h2 className="sub-header">
           Luxury Meets Warmth: The Essence of Serenity
@@ -93,10 +90,7 @@ function BlogTravel1() {
           everything is perfectly placed.
         </p>
         <div className="image-container">
-          <img
-            className="middle-section-image"
-            src="/img/blog/mauritius4.JPG"
-          />
+          <img className="middle-section-image" src="/img/blog/6.JPG" />
         </div>
 
         <h2 className="sub-header">
@@ -127,10 +121,7 @@ function BlogTravel1() {
           restaurants, the food.
         </p>
         <div className="image-container">
-          <img
-            className="middle-section-image"
-            src="/img/blog/mauritius5.JPG"
-          />
+          <img className="middle-section-image" src="/img/blog/7.JPG" />
         </div>
       </section>
       <section className="end-section-container">
