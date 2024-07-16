@@ -33,8 +33,12 @@ const ContactForm = () => {
           body: JSON.stringify(formData),
         }
       );
+
+      console.log('Response status:', response.status); // Log status code
+
       if (response.ok) {
-        console.log('Email sent successfully');
+        const data = await response.json(); // Parse JSON response
+        console.log('Email sent successfully:', data);
         setEmailSent(true);
         setFormData({
           firstName: '',
@@ -44,11 +48,12 @@ const ContactForm = () => {
           message: '',
         });
       } else {
-        console.error('Error sending email:', response.statusText);
+        const errorData = await response.json(); // Parse JSON response
+        console.error('Error sending email:', errorData);
         setEmailSent(false);
       }
     } catch (error) {
-      console.error('Error sending email:', error.message);
+      console.error('Network error sending email:', error.message);
       setEmailSent(false);
     }
   };
