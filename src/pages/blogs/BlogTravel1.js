@@ -18,7 +18,7 @@ function BlogTravel1() {
           rejuvenated me every time I stepped outside.
         </p>
         <div className="image-container">
-          <img className="top-section-image" src="/img/blog/mauritius-2.jpg" />
+          <img className="top-section-image" src="/img/blog/mauritius2.JPG" />
         </div>
       </section>
       <section className="middle-section-container">
@@ -54,7 +54,7 @@ function BlogTravel1() {
         <div className="image-container">
           <img
             className="middle-section-image"
-            src="/img/blog/mauritius-3.jpg"
+            src="/img/blog/mauritius3.JPG"
           />
         </div>
         <h2 className="sub-header">
@@ -95,7 +95,7 @@ function BlogTravel1() {
         <div className="image-container">
           <img
             className="middle-section-image"
-            src="/img/blog/mauritius-4.jpg"
+            src="/img/blog/mauritius4.JPG"
           />
         </div>
 
@@ -129,7 +129,7 @@ function BlogTravel1() {
         <div className="image-container">
           <img
             className="middle-section-image"
-            src="/img/blog/mauritius-5.jpg"
+            src="/img/blog/mauritius5.JPG"
           />
         </div>
       </section>
