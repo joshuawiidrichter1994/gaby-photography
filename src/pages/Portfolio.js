@@ -4,7 +4,7 @@ import './Portfolio.css';
 import Spinner from '../components/Spinner';
 
 const imageList = [
-  '/img/works/july-1.jpg',
+  '/img/works/july.JPG',
   '/img/works/july-2.jpg',
   '/img/works/july-3.jpg',
   '/img/works/july-4.jpg',
