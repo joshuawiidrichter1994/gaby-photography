@@ -10,7 +10,7 @@ function BlogListings() {
       <div className="blog-grid">
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img className="blog-img" src="/img/blog/BlogTravel1/1.jpg" />
+            <img className="blog-img" src="/img/blog/mauritius-1.jpg" />
             <div className="blog-info">
               <p className="blog-heading">Experiencing Mauritius</p>
               <p className="blog-description">
