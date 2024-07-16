@@ -15,7 +15,10 @@ function Landing() {
             </span>
           </div>
           <div className="intro-image-container">
-            <img className="intro-img" src="/img/home/1.JPG" />
+            <img
+              className="intro-img"
+              src="https://gabyisabelle.com/img/home/1.JPG"
+            />
           </div>
         </div>
         {/* PORTFOLIO */}
@@ -28,15 +31,24 @@ function Landing() {
           </div>
           <div className="section-images-container">
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/2.png" />
+              <img
+                className="section-image"
+                src="https://gabyisabelle.com/img/home/2.png"
+              />
               <p className="section-image-text">Travel</p>
             </div>
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/3.png" />
+              <img
+                className="section-image"
+                src="https://gabyisabelle.com/img/home/3.png"
+              />
               <p className="section-image-text">Brands</p>
             </div>
             <div className="section-image-container">
-              <img className="section-image" src="/img/home/4.png" />
+              <img
+                className="section-image"
+                src="https://gabyisabelle.com/img/home/4.png"
+              />
               <p className="section-image-text">Portraits</p>
             </div>
           </div>
@@ -51,10 +63,16 @@ function Landing() {
           </div>
           <div className="services-images">
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/5.JPG" />
+              <img
+                className="service-image"
+                src="https://gabyisabelle.com/img/home/5.JPG"
+              />
             </div>
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/6.JPG" />
+              <img
+                className="service-image"
+                src="https://gabyisabelle.com/img/home/6.JPG"
+              />
             </div>
           </div>
         </div>
@@ -69,19 +87,28 @@ function Landing() {
           <div className="section-images-container">
             <div className="section-image-container">
               <a href="./blog-travel-mauritius">
-                <img className="section-image" src="/img/blog/3.jpg" />
+                <img
+                  className="section-image"
+                  src="https://gabyisabelle.com/img/blog/3.jpg"
+                />
                 <p className="section-image-text">Experiencing Mauritius</p>
               </a>
             </div>
             <div className="section-image-container">
               <a href="./blog">
-                <img className="section-image" src="/img/home/8.png" />
+                <img
+                  className="section-image"
+                  src="https://gabyisabelle.com/img/home/8.png"
+                />
                 <p className="section-image-text">Learning Light</p>
               </a>
             </div>
             <div className="section-image-container">
               <a href="./blog">
-                <img className="section-image" src="/img/home/9.png" />
+                <img
+                  className="section-image"
+                  src="https://gabyisabelle.com/img/home/9.png"
+                />
                 <p className="section-image-text">Environmental Portraiture</p>
               </a>
             </div>

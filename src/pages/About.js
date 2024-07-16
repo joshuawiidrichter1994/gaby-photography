@@ -13,7 +13,10 @@ function About() {
         </span>
       </div>
       <div className="about-img-container">
-        <img className="about-img" src="/img/about/about.jpg" />
+        <img
+          className="about-img"
+          src="https://gabyisabelle.com/img/about/about.jpg"
+        />
       </div>
       <p className="about-text">
         Welcome! I'm Gaby, a fine art photographer and full-scale copywriter
