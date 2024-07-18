@@ -40,7 +40,8 @@ module.exports = async (req, res) => {
   }
 
   if (req.method !== 'POST') {
-    return res.status(405).send('Method Not Allowed');
+    res.setHeader('Content-Type', 'application/json');
+    return res.status(405).json({ error: 'Method Not Allowed' });
   }
 
   console.log('Received request:', req.body);
@@ -49,7 +50,10 @@ module.exports = async (req, res) => {
 
   if (!firstName || !lastName || !email || !phone || !message) {
     console.log('Bad request:', req.body);
-    return res.status(400).send('Bad Request: Missing required fields');
+    res.setHeader('Content-Type', 'application/json');
+    return res
+      .status(400)
+      .json({ error: 'Bad Request: Missing required fields' });
   }
 
   const mailOptions = {
@@ -68,9 +72,13 @@ module.exports = async (req, res) => {
   try {
     const info = await transporter.sendMail(mailOptions);
     console.log('Email sent:', info.response);
-    res.status(200).send('Email sent successfully');
+    res.setHeader('Content-Type', 'application/json');
+    return res.status(200).json({ message: 'Email sent successfully' });
   } catch (error) {
     console.error('Error occurred while sending email:', error);
-    res.status(500).send(`Error sending email: ${error.message}`);
+    res.setHeader('Content-Type', 'application/json');
+    return res
+      .status(500)
+      .json({ error: `Error sending email: ${error.message}` });
   }
 };
