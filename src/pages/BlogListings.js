@@ -10,10 +10,7 @@ function BlogListings() {
       <div className="blog-grid">
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src="https://gabyisabelle.com/img/blog/3.jpg"
-            />
+            <img className="blog-img" src="/img/blog/1.jpg" />
             <div className="blog-info">
               <p className="blog-heading">Experiencing Mauritius</p>
               <p className="blog-description">
@@ -26,10 +23,7 @@ function BlogListings() {
             </div>
           </div>
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src="https://gabyisabelle.com/img/blog/1.png"
-            />
+            <img className="blog-img" src="/img/blog/2.png" />
             <div className="blog-info">
               <p className="blog-heading">Learning Light</p>
               <p className="blog-description">
@@ -44,10 +38,7 @@ function BlogListings() {
         </div>
         <div className="blog-grid-row">
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src="https://gabyisabelle.com/img/home/9.png"
-            />
+            <img className="blog-img" src="/img/blog/8.png" />
             <div className="blog-info">
               <p className="blog-heading">Styling Your Subject</p>
               <p className="blog-description">
@@ -61,10 +52,7 @@ function BlogListings() {
             </div>
           </div>
           <div className="blog-container">
-            <img
-              className="blog-img"
-              src="https://gabyisabelle.com/img/works/13.jpg"
-            />
+            <img className="blog-img" src="/img/blog/9.jpg" />
             <div className="blog-info">
               <p className="blog-heading">Environmental Portraiture</p>
               <p className="blog-description">

@@ -20,7 +20,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="https://gabyisabelle.com/img/services/portraits.jpg"
+                  src="/img/services/portraits.jpg"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Portraits</span>
@@ -30,7 +30,7 @@ function Services() {
               <div className="grid-item">
                 <img
                   className="grid-item-image"
-                  src="https://gabyisabelle.com/img/services/brands.jpg"
+                  src="/img/services/brands.jpg"
                 />
                 <div className="grid-item-text">
                   <span className="grid-item-text-header">Brands</span>
@@ -40,7 +40,7 @@ function Services() {
               <div className="grid-item-travel">
                 <img
                   className="grid-item-image"
-                  src="https://gabyisabelle.com/img/services/events.JPG"
+                  src="/img/services/travel.jpg"
                 />
                 <div id="grid-item-text" className="grid-item-text">
                   <span className="grid-item-text-header">Travel</span>
