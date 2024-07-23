@@ -40,7 +40,7 @@ function Services() {
               <div className="grid-item-travel">
                 <img
                   className="grid-item-image"
-                  src="/img/services/travel.jpg"
+                  src="/img/services/travel.JPG"
                 />
                 <div id="grid-item-text" className="grid-item-text">
                   <span className="grid-item-text-header">Travel</span>
