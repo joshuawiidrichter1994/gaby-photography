@@ -51,10 +51,10 @@ function Landing() {
           </div>
           <div className="services-images">
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/5.JPG" />
+              <img className="service-image" src="/img/home/5.jpg" />
             </div>
             <div className="service-image-container">
-              <img className="service-image" src="/img/home/6.JPG" />
+              <img className="service-image" src="/img/home/6.jpg" />
             </div>
           </div>
         </div>
