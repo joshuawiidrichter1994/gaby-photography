@@ -32,11 +32,7 @@ function Header() {
       <header className="header-desktop">
         <div className="icon-container">
           <a href="./">
-            <img
-              className="icon"
-              src="https://gabyisabelle.com/img/logo.jpg"
-              alt="Logo"
-            />
+            <img className="icon" src="/img/logo.jpg" alt="Logo" />
           </a>
         </div>
         <div className="nav-container">
@@ -72,11 +68,7 @@ function Header() {
       <header className="header-mobile">
         <div className="icon-container">
           <a href="/">
-            <img
-              className="icon"
-              src="https://gabyisabelle.com/img/logo.jpg"
-              alt="Logo"
-            />
+            <img className="icon" src="/img/logo.jpg" alt="Logo" />
           </a>
         </div>
 
@@ -90,7 +82,7 @@ function Header() {
           <img
             className="menu-icon"
             onClick={toggleMobileNav}
-            src="https://gabyisabelle.com/img/mobile-menu.png"
+            src="/img/mobile-menu.png"
             alt="Menu"
           />
         </div>
@@ -105,7 +97,7 @@ function Header() {
           <img
             className="menu-icon"
             onClick={toggleMobileNav}
-            src="https://gabyisabelle.com/img/cross.png"
+            src="/img/cross.png"
             alt="Close"
           />
         </div>

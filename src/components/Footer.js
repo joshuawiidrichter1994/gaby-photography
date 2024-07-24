@@ -84,16 +84,10 @@ function Footer() {
               href="https://www.linkedin.com/in/gaby-isabelle-58405b18b/"
               target="_blank"
             >
-              <img
-                className="socials-logo"
-                src="https://gabyisabelle.com/img/linkedin.png"
-              />
+              <img className="socials-logo" src="/img/linkedin.png" />
             </a>
             <a href="https://www.instagram.com/gabyisabellee/" target="_blank">
-              <img
-                className="socials-logo"
-                src="https://gabyisabelle.com/img/instagram.png"
-              />
+              <img className="socials-logo" src="/img/instagram.png" />
             </a>
           </div>
         </div>
