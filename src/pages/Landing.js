@@ -15,7 +15,7 @@ function Landing() {
             </span>
           </div>
           <div className="intro-image-container">
-            <img className="intro-img" src="/img/home/1.JPG" />
+            <img className="intro-img" src="/img/home/1.jpg" />
           </div>
         </div>
         {/* PORTFOLIO */}
