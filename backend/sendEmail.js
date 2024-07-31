@@ -26,6 +26,7 @@ module.exports = async (req, res) => {
   } else {
     res.setHeader('Access-Control-Allow-Origin', 'https://gabyisabelle.com');
   }
+
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
